@@ -2710,7 +2710,7 @@ namespace SANDEN_PC_APP
         {
             try
             {
-                txtPartSearch.Text = "";
+                txtPartSearch.Text = ""; //SATO
                 _plObj = new PL_REPORT();
                 _blObj = new BL_REPORT();
                 _plObj.DbType = _RPT_Type;
