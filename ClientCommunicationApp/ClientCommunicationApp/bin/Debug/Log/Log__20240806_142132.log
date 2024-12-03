@@ -1,0 +1,122 @@
+
+[Log Startup at 14:21:32]
+(Ver:-1.0.0.0)2024-08-06 14:22:04.117 (Info) GetPLCInput0:10.91.4.5:1025 - Received data::P1~00~00146120920A^
+(Ver:-1.0.0.0)2024-08-06 14:22:04.122 (Info) SendToServer:10.91.4.5:1025 - Received data for db::P1~00~00146120920A^
+(Ver:-1.0.0.0)2024-08-06 14:22:04.136 (Info) GetPLCInput0:10.91.4.5:1025 - Prepare Response data::2~ALREADY SCANNED WITH OK STATUS!!!
+(Ver:-1.0.0.0)2024-08-06 14:22:04.136 (Info) GetPLCInput0:10.91.4.5:1025 - Data sent successfully!!
+(Ver:-1.0.0.0)2024-08-06 14:22:13.971 (Info) GetPLCInput0:10.91.4.5:1025 - Received data::P1~00~00146120920A^
+(Ver:-1.0.0.0)2024-08-06 14:22:13.971 (Info) SendToServer:10.91.4.5:1025 - Received data for db::P1~00~00146120920A^
+(Ver:-1.0.0.0)2024-08-06 14:22:13.972 (Info) GetPLCInput0:10.91.4.5:1025 - Prepare Response data::1~
+(Ver:-1.0.0.0)2024-08-06 14:22:13.972 (Info) GetPLCInput0:10.91.4.5:1025 - Data sent successfully!!
+(Ver:-1.0.0.0)2024-08-06 14:22:15.555 (Info) GetPLCInput0:10.91.4.5:1025 - Received data::P1~00~00146120920A^
+(Ver:-1.0.0.0)2024-08-06 14:22:15.555 (Info) SendToServer:10.91.4.5:1025 - Received data for db::P1~00~00146120920A^
+(Ver:-1.0.0.0)2024-08-06 14:22:15.555 (Info) GetPLCInput0:10.91.4.5:1025 - Prepare Response data::1~
+(Ver:-1.0.0.0)2024-08-06 14:22:15.555 (Info) GetPLCInput0:10.91.4.5:1025 - Data sent successfully!!
+(Ver:-1.0.0.0)2024-08-06 14:22:16.972 (Info) GetPLCInput0:10.91.4.5:1025 - Received data::P1~00~00146120920A^
+(Ver:-1.0.0.0)2024-08-06 14:22:16.972 (Info) SendToServer:10.91.4.5:1025 - Received data for db::P1~00~00146120920A^
+(Ver:-1.0.0.0)2024-08-06 14:22:16.972 (Info) GetPLCInput0:10.91.4.5:1025 - Prepare Response data::1~
+(Ver:-1.0.0.0)2024-08-06 14:22:16.972 (Info) GetPLCInput0:10.91.4.5:1025 - Data sent successfully!!
+(Ver:-1.0.0.0)2024-08-06 14:22:17.335 (Info) GetPLCInput0:10.91.4.5:1025 - Received data::P1~00~00146120920A^
+(Ver:-1.0.0.0)2024-08-06 14:22:17.335 (Info) SendToServer:10.91.4.5:1025 - Received data for db::P1~00~00146120920A^
+(Ver:-1.0.0.0)2024-08-06 14:22:17.336 (Info) GetPLCInput0:10.91.4.5:1025 - Prepare Response data::1~
+(Ver:-1.0.0.0)2024-08-06 14:22:17.336 (Info) GetPLCInput0:10.91.4.5:1025 - Data sent successfully!!
+(Ver:-1.0.0.0)2024-08-06 14:22:18.335 (Info) GetPLCInput0:10.91.4.5:1025 - Received data::P1~00~00146120920A^P1~00~00146120920A^P1~00~00146120920A^
+(Ver:-1.0.0.0)2024-08-06 14:22:18.336 (Info) SendToServer:10.91.4.5:1025 - Received data for db::P1~00~00146120920A^P1~00~00146120920A^P1~00~00146120920A^
+(Ver:-1.0.0.0)2024-08-06 14:22:18.336 (Info) GetPLCInput0:10.91.4.5:1025 - Prepare Response data::1~
+(Ver:-1.0.0.0)2024-08-06 14:22:18.336 (Info) GetPLCInput0:10.91.4.5:1025 - Data sent successfully!!
+(Ver:-1.0.0.0)2024-08-06 14:22:45.272 (Info) GetPLCInput0:10.91.4.5:1025 - Received data::P2~00~00146120920A~ 200; 400; 283;OK;OK; 200; 400; 283;OK;OK~1^
+(Ver:-1.0.0.0)2024-08-06 14:22:45.272 (Info) SendToServer:10.91.4.5:1025 - Received data for db::P2~00~00146120920A~ 200; 400; 283;OK;OK; 200; 400; 283;OK;OK~1^
+(Ver:-1.0.0.0)2024-08-06 14:22:45.274 (Info) GetPLCInput0:10.91.4.5:1025 - Prepare Response data::1~SAVED SUCCESSFULLY(00146120920A)
+(Ver:-1.0.0.0)2024-08-06 14:22:45.274 (Info) GetPLCInput0:10.91.4.5:1025 - Data sent successfully!!
+(Ver:-1.0.0.0)2024-08-06 14:22:47.120 (Info) GetPLCInput0:10.91.4.5:1025 - Received data::P2~00~00146120920A~ 200; 400; 283;OK;OK; 200; 400; 283;OK;OK~1^
+(Ver:-1.0.0.0)2024-08-06 14:22:47.120 (Info) SendToServer:10.91.4.5:1025 - Received data for db::P2~00~00146120920A~ 200; 400; 283;OK;OK; 200; 400; 283;OK;OK~1^
+(Ver:-1.0.0.0)2024-08-06 14:22:47.122 (Info) GetPLCInput0:10.91.4.5:1025 - Prepare Response data::1~SAVED SUCCESSFULLY(00146120920A)
+(Ver:-1.0.0.0)2024-08-06 14:22:47.122 (Info) GetPLCInput0:10.91.4.5:1025 - Data sent successfully!!
+(Ver:-1.0.0.0)2024-08-06 14:22:49.019 (Info) GetPLCInput0:10.91.4.5:1025 - Received data::P2~00~00146120920A~ 200; 400; 283;OK;OK; 200; 400; 283;OK;OK~1^
+(Ver:-1.0.0.0)2024-08-06 14:22:49.019 (Info) SendToServer:10.91.4.5:1025 - Received data for db::P2~00~00146120920A~ 200; 400; 283;OK;OK; 200; 400; 283;OK;OK~1^
+(Ver:-1.0.0.0)2024-08-06 14:22:49.021 (Info) GetPLCInput0:10.91.4.5:1025 - Prepare Response data::1~SAVED SUCCESSFULLY(00146120920A)
+(Ver:-1.0.0.0)2024-08-06 14:22:49.021 (Info) GetPLCInput0:10.91.4.5:1025 - Data sent successfully!!
+(Ver:-1.0.0.0)2024-08-06 14:22:49.574 (Info) GetPLCInput0:10.91.4.5:1025 - Received data::P2~00~00146120920A~ 200; 400; 283;OK;OK; 200; 400; 283;OK;OK~1^
+(Ver:-1.0.0.0)2024-08-06 14:22:49.574 (Info) SendToServer:10.91.4.5:1025 - Received data for db::P2~00~00146120920A~ 200; 400; 283;OK;OK; 200; 400; 283;OK;OK~1^
+(Ver:-1.0.0.0)2024-08-06 14:22:49.575 (Info) GetPLCInput0:10.91.4.5:1025 - Prepare Response data::1~SAVED SUCCESSFULLY(00146120920A)
+(Ver:-1.0.0.0)2024-08-06 14:22:49.575 (Info) GetPLCInput0:10.91.4.5:1025 - Data sent successfully!!
+(Ver:-1.0.0.0)2024-08-06 14:22:50.347 (Info) GetPLCInput0:10.91.4.5:1025 - Received data::P2~00~00146120920A~ 200; 400; 283;OK;OK; 200; 400; 283;OK;OK~1^P2~00~00146120920A~ 200; 400; 283;OK;OK; 200; 400; 283;OK;OK~1^P2~00~00146120920A~ 200; 400; 283;OK;OK; 200; 400; 283;OK;OK~1^
+(Ver:-1.0.0.0)2024-08-06 14:22:50.347 (Info) SendToServer:10.91.4.5:1025 - Received data for db::P2~00~00146120920A~ 200; 400; 283;OK;OK; 200; 400; 283;OK;OK~1^P2~00~00146120920A~ 200; 400; 283;OK;OK; 200; 400; 283;OK;OK~1^P2~00~00146120920A~ 200; 400; 283;OK;OK; 200; 400; 283;OK;OK~1^
+(Ver:-1.0.0.0)2024-08-06 14:22:50.348 (Info) GetPLCInput0:10.91.4.5:1025 - Prepare Response data::1~SAVED SUCCESSFULLY(00146120920A)
+(Ver:-1.0.0.0)2024-08-06 14:22:50.348 (Info) GetPLCInput0:10.91.4.5:1025 - Data sent successfully!!
+(Ver:-1.0.0.0)2024-08-06 14:23:17.880 (Info) GetPLCInput0:10.91.4.5:1025 - Received data::P2~00~00146120920A~ 200; 400; 283;OK;OK; 200; 400; 283;OK;OK~1^
+(Ver:-1.0.0.0)2024-08-06 14:23:17.880 (Info) SendToServer:10.91.4.5:1025 - Received data for db::P2~00~00146120920A~ 200; 400; 283;OK;OK; 200; 400; 283;OK;OK~1^
+(Ver:-1.0.0.0)2024-08-06 14:23:17.881 (Info) GetPLCInput0:10.91.4.5:1025 - Prepare Response data::1~SAVED SUCCESSFULLY(00146120920A)
+(Ver:-1.0.0.0)2024-08-06 14:23:17.881 (Info) GetPLCInput0:10.91.4.5:1025 - Data sent successfully!!
+(Ver:-1.0.0.0)2024-08-06 14:24:30.298 (Info) GetPLCInput0:10.91.4.5:1025 - Received data::P2~00~00146120920A~ 200; 400; 283;OK;OK; 200; 400; 283;OK;OK~1^
+(Ver:-1.0.0.0)2024-08-06 14:24:30.298 (Info) SendToServer:10.91.4.5:1025 - Received data for db::P2~00~00146120920A~ 200; 400; 283;OK;OK; 200; 400; 283;OK;OK~1^
+(Ver:-1.0.0.0)2024-08-06 14:24:30.312 (Info) GetPLCInput0:10.91.4.5:1025 - Prepare Response data::1~SAVED SUCCESSFULLY(00146120920A)
+(Ver:-1.0.0.0)2024-08-06 14:24:30.312 (Info) GetPLCInput0:10.91.4.5:1025 - Data sent successfully!!
+(Ver:-1.0.0.0)2024-08-06 14:25:15.565 (Info) GetPLCInput0:10.91.4.5:1025 - Received data::P2~00~00146120920A~ 200; 400; 283;OK;OK; 200; 400; 283;OK;OK~1^
+(Ver:-1.0.0.0)2024-08-06 14:25:15.565 (Info) SendToServer:10.91.4.5:1025 - Received data for db::P2~00~00146120920A~ 200; 400; 283;OK;OK; 200; 400; 283;OK;OK~1^
+(Ver:-1.0.0.0)2024-08-06 14:25:15.569 (Info) GetPLCInput0:10.91.4.5:1025 - Prepare Response data::1~SAVED SUCCESSFULLY(00146120920A)
+(Ver:-1.0.0.0)2024-08-06 14:25:15.569 (Info) GetPLCInput0:10.91.4.5:1025 - Data sent successfully!!
+(Ver:-1.0.0.0)2024-08-06 14:27:29.895 (Info) GetPLCInput0:10.91.4.5:1025 - Received data::P2~00~00146120920A~ 200; 400; 283;OK;OK; 200; 400; 283;OK;OK~1^
+(Ver:-1.0.0.0)2024-08-06 14:27:29.895 (Info) SendToServer:10.91.4.5:1025 - Received data for db::P2~00~00146120920A~ 200; 400; 283;OK;OK; 200; 400; 283;OK;OK~1^
+(Ver:-1.0.0.0)2024-08-06 14:27:29.905 (Info) GetPLCInput0:10.91.4.5:1025 - Prepare Response data::2~ALREADY SCANNED WITH OK STATUS!!!
+(Ver:-1.0.0.0)2024-08-06 14:27:29.905 (Info) GetPLCInput0:10.91.4.5:1025 - Data sent successfully!!
+(Ver:-1.0.0.0)2024-08-06 14:27:43.207 (Info) GetPLCInput0:10.91.4.5:1025 - Received data::P2~01~00146120920A~ 200; 400; 283;OK;OK; 200; 400; 283;OK;OK~1^
+(Ver:-1.0.0.0)2024-08-06 14:27:43.207 (Info) SendToServer:10.91.4.5:1025 - Received data for db::P2~01~00146120920A~ 200; 400; 283;OK;OK; 200; 400; 283;OK;OK~1^
+(Ver:-1.0.0.0)2024-08-06 14:27:43.212 (Info) GetPLCInput0:10.91.4.5:1025 - Prepare Response data::1~SAVED SUCCESSFULLY(00146120920A)
+(Ver:-1.0.0.0)2024-08-06 14:27:43.212 (Info) GetPLCInput0:10.91.4.5:1025 - Data sent successfully!!
+(Ver:-1.0.0.0)2024-08-06 14:27:44.817 (Info) GetPLCInput0:10.91.4.5:1025 - Received data::P2~01~00146120920A~ 200; 400; 283;OK;OK; 200; 400; 283;OK;OK~1^
+(Ver:-1.0.0.0)2024-08-06 14:27:44.817 (Info) SendToServer:10.91.4.5:1025 - Received data for db::P2~01~00146120920A~ 200; 400; 283;OK;OK; 200; 400; 283;OK;OK~1^
+(Ver:-1.0.0.0)2024-08-06 14:27:44.817 (Info) GetPLCInput0:10.91.4.5:1025 - Prepare Response data::2~ALREADY SCANNED WITH OK STATUS!!!
+(Ver:-1.0.0.0)2024-08-06 14:27:44.817 (Info) GetPLCInput0:10.91.4.5:1025 - Data sent successfully!!
+(Ver:-1.0.0.0)2024-08-06 14:27:49.245 (Info) GetPLCInput0:10.91.4.5:1025 - Received data::P2~02~00146120920A~ 200; 400; 283;OK;OK; 200; 400; 283;OK;OK~1^
+(Ver:-1.0.0.0)2024-08-06 14:27:49.245 (Info) SendToServer:10.91.4.5:1025 - Received data for db::P2~02~00146120920A~ 200; 400; 283;OK;OK; 200; 400; 283;OK;OK~1^
+(Ver:-1.0.0.0)2024-08-06 14:27:49.249 (Info) GetPLCInput0:10.91.4.5:1025 - Prepare Response data::1~SAVED SUCCESSFULLY(00146120920A)
+(Ver:-1.0.0.0)2024-08-06 14:27:49.249 (Info) GetPLCInput0:10.91.4.5:1025 - Data sent successfully!!
+(Ver:-1.0.0.0)2024-08-06 14:27:53.267 (Info) GetPLCInput0:10.91.4.5:1025 - Received data::P2~03~00146120920A~ 200; 400; 283;OK;OK; 200; 400; 283;OK;OK~1^
+(Ver:-1.0.0.0)2024-08-06 14:27:53.267 (Info) SendToServer:10.91.4.5:1025 - Received data for db::P2~03~00146120920A~ 200; 400; 283;OK;OK; 200; 400; 283;OK;OK~1^
+(Ver:-1.0.0.0)2024-08-06 14:27:53.271 (Info) GetPLCInput0:10.91.4.5:1025 - Prepare Response data::1~SAVED SUCCESSFULLY(00146120920A)
+(Ver:-1.0.0.0)2024-08-06 14:27:53.271 (Info) GetPLCInput0:10.91.4.5:1025 - Data sent successfully!!
+(Ver:-1.0.0.0)2024-08-06 14:27:58.862 (Info) GetPLCInput0:10.91.4.5:1025 - Received data::P2~04~00146120920A~ 200; 400; 283;OK;OK; 200; 400; 283;OK;OK~1^
+(Ver:-1.0.0.0)2024-08-06 14:27:58.862 (Info) SendToServer:10.91.4.5:1025 - Received data for db::P2~04~00146120920A~ 200; 400; 283;OK;OK; 200; 400; 283;OK;OK~1^
+(Ver:-1.0.0.0)2024-08-06 14:27:58.863 (Info) GetPLCInput0:10.91.4.5:1025 - Prepare Response data::2~INVALID STAION NO.!!
+(Ver:-1.0.0.0)2024-08-06 14:27:58.863 (Info) GetPLCInput0:10.91.4.5:1025 - Data sent successfully!!
+(Ver:-1.0.0.0)2024-08-06 14:27:59.590 (Info) GetPLCInput0:10.91.4.5:1025 - Received data::P2~04~00146120920A~ 200; 400; 283;OK;OK; 200; 400; 283;OK;OK~1^
+(Ver:-1.0.0.0)2024-08-06 14:27:59.590 (Info) SendToServer:10.91.4.5:1025 - Received data for db::P2~04~00146120920A~ 200; 400; 283;OK;OK; 200; 400; 283;OK;OK~1^
+(Ver:-1.0.0.0)2024-08-06 14:27:59.590 (Info) GetPLCInput0:10.91.4.5:1025 - Prepare Response data::2~INVALID STAION NO.!!
+(Ver:-1.0.0.0)2024-08-06 14:27:59.590 (Info) GetPLCInput0:10.91.4.5:1025 - Data sent successfully!!
+(Ver:-1.0.0.0)2024-08-06 14:28:08.466 (Info) GetPLCInput0:10.91.4.5:1025 - Received data::P2~03~00146120920A~ 200; 400; 283;OK;OK; 200; 400; 283;OK;OK~1^
+(Ver:-1.0.0.0)2024-08-06 14:28:08.466 (Info) SendToServer:10.91.4.5:1025 - Received data for db::P2~03~00146120920A~ 200; 400; 283;OK;OK; 200; 400; 283;OK;OK~1^
+(Ver:-1.0.0.0)2024-08-06 14:28:08.466 (Info) GetPLCInput0:10.91.4.5:1025 - Prepare Response data::2~ALREADY SCANNED WITH OK STATUS!!!
+(Ver:-1.0.0.0)2024-08-06 14:28:08.466 (Info) GetPLCInput0:10.91.4.5:1025 - Data sent successfully!!
+(Ver:-1.0.0.0)2024-08-06 14:28:29.637 (Info) GetPLCInput0:10.91.4.5:1025 - Received data::P2~03~00146120921A~ 200; 400; 283;OK;OK; 200; 400; 283;OK;OK~1^
+(Ver:-1.0.0.0)2024-08-06 14:28:29.637 (Info) SendToServer:10.91.4.5:1025 - Received data for db::P2~03~00146120921A~ 200; 400; 283;OK;OK; 200; 400; 283;OK;OK~1^
+(Ver:-1.0.0.0)2024-08-06 14:28:29.637 (Info) GetPLCInput0:10.91.4.5:1025 - Prepare Response data::2~PREVIOUS STATION MISSED!!!
+(Ver:-1.0.0.0)2024-08-06 14:28:29.637 (Info) GetPLCInput0:10.91.4.5:1025 - Data sent successfully!!
+(Ver:-1.0.0.0)2024-08-06 14:28:40.823 (Info) GetPLCInput0:10.91.4.5:1025 - Received data::P2~00~00146120921A~ 200; 400; 283;OK;OK; 200; 400; 283;OK;OK~2^
+(Ver:-1.0.0.0)2024-08-06 14:28:40.823 (Info) SendToServer:10.91.4.5:1025 - Received data for db::P2~00~00146120921A~ 200; 400; 283;OK;OK; 200; 400; 283;OK;OK~2^
+(Ver:-1.0.0.0)2024-08-06 14:28:40.828 (Info) GetPLCInput0:10.91.4.5:1025 - Prepare Response data::1~SAVED SUCCESSFULLY(00146120921A)
+(Ver:-1.0.0.0)2024-08-06 14:28:40.828 (Info) GetPLCInput0:10.91.4.5:1025 - Data sent successfully!!
+(Ver:-1.0.0.0)2024-08-06 14:28:44.888 (Info) GetPLCInput0:10.91.4.5:1025 - Received data::P2~00~00146120921A~ 200; 400; 283;OK;OK; 200; 400; 283;OK;OK~2^
+(Ver:-1.0.0.0)2024-08-06 14:28:44.888 (Info) SendToServer:10.91.4.5:1025 - Received data for db::P2~00~00146120921A~ 200; 400; 283;OK;OK; 200; 400; 283;OK;OK~2^
+(Ver:-1.0.0.0)2024-08-06 14:28:44.889 (Info) GetPLCInput0:10.91.4.5:1025 - Prepare Response data::2~THIS PART IS NG AND LOCK FOR REWORK PROCESS!!!
+(Ver:-1.0.0.0)2024-08-06 14:28:44.889 (Info) GetPLCInput0:10.91.4.5:1025 - Data sent successfully!!
+(Ver:-1.0.0.0)2024-08-06 14:42:37.727 (Info) GetPLCInput0:10.91.4.5:1025 - Received data::P2~00~00146120921A~ 200; 400; 283;OK;OK; 200; 400; 283;OK;OK~1^
+(Ver:-1.0.0.0)2024-08-06 14:42:37.727 (Info) SendToServer:10.91.4.5:1025 - Received data for db::P2~00~00146120921A~ 200; 400; 283;OK;OK; 200; 400; 283;OK;OK~1^
+(Ver:-1.0.0.0)2024-08-06 14:42:37.729 (Info) GetPLCInput0:10.91.4.5:1025 - Prepare Response data::2~ALREADY SCANNED WITH OK STATUS!!!
+(Ver:-1.0.0.0)2024-08-06 14:42:37.729 (Info) GetPLCInput0:10.91.4.5:1025 - Data sent successfully!!
+(Ver:-1.0.0.0)2024-08-06 14:45:33.676 (Info) GetPLCInput0:10.91.4.5:1025 - Received data::P2~00~00146120921A~ 200; 400; 283;OK;OK; 200; 400; 283;OK;OK~1^
+(Ver:-1.0.0.0)2024-08-06 14:45:33.676 (Info) SendToServer:10.91.4.5:1025 - Received data for db::P2~00~00146120921A~ 200; 400; 283;OK;OK; 200; 400; 283;OK;OK~1^
+(Ver:-1.0.0.0)2024-08-06 14:45:33.690 (Info) GetPLCInput0:10.91.4.5:1025 - Prepare Response data::1~SAVED SUCCESSFULLY(00146120921A)
+(Ver:-1.0.0.0)2024-08-06 14:45:33.690 (Info) GetPLCInput0:10.91.4.5:1025 - Data sent successfully!!
+(Ver:-1.0.0.0)2024-08-06 14:45:38.402 (Info) GetPLCInput0:10.91.4.5:1025 - Received data::P2~00~00146120921A~ 200; 400; 283;OK;OK; 200; 400; 283;OK;OK~1^
+(Ver:-1.0.0.0)2024-08-06 14:45:38.402 (Info) SendToServer:10.91.4.5:1025 - Received data for db::P2~00~00146120921A~ 200; 400; 283;OK;OK; 200; 400; 283;OK;OK~1^
+(Ver:-1.0.0.0)2024-08-06 14:45:38.406 (Info) GetPLCInput0:10.91.4.5:1025 - Prepare Response data::1~SAVED SUCCESSFULLY(00146120921A)
+(Ver:-1.0.0.0)2024-08-06 14:45:38.406 (Info) GetPLCInput0:10.91.4.5:1025 - Data sent successfully!!
+(Ver:-1.0.0.0)2024-08-06 14:46:56.606 (Info) GetPLCInput0:10.91.4.5:1025 - Received data::P2~00~00146120921A~ 200; 400; 283;OK;OK; 200; 400; 283;OK;OK~1^
+(Ver:-1.0.0.0)2024-08-06 14:46:56.606 (Info) SendToServer:10.91.4.5:1025 - Received data for db::P2~00~00146120921A~ 200; 400; 283;OK;OK; 200; 400; 283;OK;OK~1^
+(Ver:-1.0.0.0)2024-08-06 14:46:56.619 (Info) GetPLCInput0:10.91.4.5:1025 - Prepare Response data::1~SAVED SUCCESSFULLY(00146120921A)
+(Ver:-1.0.0.0)2024-08-06 14:46:56.619 (Info) GetPLCInput0:10.91.4.5:1025 - Data sent successfully!!
+(Ver:-1.0.0.0)2024-08-06 14:46:57.671 (Info) GetPLCInput0:10.91.4.5:1025 - Received data::P2~00~00146120921A~ 200; 400; 283;OK;OK; 200; 400; 283;OK;OK~1^
+(Ver:-1.0.0.0)2024-08-06 14:46:57.671 (Info) SendToServer:10.91.4.5:1025 - Received data for db::P2~00~00146120921A~ 200; 400; 283;OK;OK; 200; 400; 283;OK;OK~1^
+(Ver:-1.0.0.0)2024-08-06 14:46:57.672 (Info) GetPLCInput0:10.91.4.5:1025 - Prepare Response data::2~ALREADY SCANNED WITH OK STATUS!!!
+(Ver:-1.0.0.0)2024-08-06 14:46:57.672 (Info) GetPLCInput0:10.91.4.5:1025 - Data sent successfully!!

@@ -1,0 +1,283 @@
+C:\Users\ghm\Desktop\InvoiceApp\InvoiceApp\bin\Debug\InvoiceApp.exe.config
+C:\Users\ghm\Desktop\InvoiceApp\InvoiceApp\obj\Debug\Themes\DataGridDark_brushes.baml
+C:\Users\ghm\Desktop\InvoiceApp\InvoiceApp\obj\Debug\Themes\MyResources.baml
+C:\Users\ghm\Desktop\InvoiceApp\InvoiceApp\obj\Debug\winReportViewer2.baml
+C:\Users\ghm\Desktop\InvoiceApp\InvoiceApp\obj\Debug\winInvoice.g.cs
+C:\Users\ghm\Desktop\InvoiceApp\InvoiceApp\obj\Debug\winItem.g.cs
+C:\Users\ghm\Desktop\InvoiceApp\InvoiceApp\obj\Debug\winReportViewer2.g.cs
+C:\Users\ghm\Desktop\InvoiceApp\InvoiceApp\obj\Debug\App.g.cs
+C:\Users\ghm\Desktop\InvoiceApp\InvoiceApp\obj\Debug\InvoiceApp_MarkupCompile.cache
+C:\Users\ghm\Desktop\InvoiceApp\InvoiceApp\obj\Debug\InvoiceApp_MarkupCompile.lref
+C:\Users\ghm\Desktop\InvoiceApp\InvoiceApp\bin\Debug\InvoiceApp.exe
+C:\Users\ghm\Desktop\InvoiceApp\InvoiceApp\bin\Debug\InvoiceApp.pdb
+C:\Users\ghm\Desktop\InvoiceApp\InvoiceApp\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\ghm\Desktop\InvoiceApp\InvoiceApp\bin\Debug\CrystalDecisions.ReportSource.dll
+C:\Users\ghm\Desktop\InvoiceApp\InvoiceApp\bin\Debug\CrystalDecisions.Shared.dll
+C:\Users\ghm\Desktop\InvoiceApp\InvoiceApp\bin\Debug\SAPBusinessObjects.WPF.Viewer.dll
+C:\Users\ghm\Desktop\InvoiceApp\InvoiceApp\bin\Debug\SAPBusinessObjects.WPF.ViewerShared.dll
+C:\Users\ghm\Desktop\InvoiceApp\InvoiceApp\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\ghm\Desktop\InvoiceApp\InvoiceApp\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\ghm\Desktop\InvoiceApp\InvoiceApp\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\ghm\Desktop\InvoiceApp\InvoiceApp\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\ghm\Desktop\InvoiceApp\InvoiceApp\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\ghm\Desktop\InvoiceApp\InvoiceApp\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\ghm\Desktop\InvoiceApp\InvoiceApp\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\ghm\Desktop\InvoiceApp\InvoiceApp\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\ghm\Desktop\InvoiceApp\InvoiceApp\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\ghm\Desktop\InvoiceApp\InvoiceApp\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\ghm\Desktop\InvoiceApp\InvoiceApp\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\ghm\Desktop\InvoiceApp\InvoiceApp\bin\Debug\FlashControlV71.dll
+C:\Users\ghm\Desktop\InvoiceApp\InvoiceApp\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\ghm\Desktop\InvoiceApp\InvoiceApp\bin\Debug\stdole.dll
+C:\Users\ghm\Desktop\InvoiceApp\InvoiceApp\bin\Debug\ShockwaveFlashObjects.dll
+C:\Users\ghm\Desktop\InvoiceApp\InvoiceApp\obj\Debug\Themes\btnPlain.baml
+C:\Users\ghm\Desktop\InvoiceApp\InvoiceApp\obj\Debug\Themes\DataGridDark.baml
+C:\Users\ghm\Desktop\InvoiceApp\InvoiceApp\obj\Debug\App.baml
+C:\Users\ghm\Desktop\InvoiceApp\InvoiceApp\obj\Debug\winInvoice.baml
+C:\Users\ghm\Desktop\InvoiceApp\InvoiceApp\obj\Debug\winItem.baml
+C:\Users\ghm\Desktop\InvoiceApp\InvoiceApp\obj\Debug\InvoiceApp.g.resources
+C:\Users\ghm\Desktop\InvoiceApp\InvoiceApp\obj\Debug\InvoiceApp.Properties.Resources.resources
+C:\Users\ghm\Desktop\InvoiceApp\InvoiceApp\obj\Debug\InvoiceApp.csproj.GenerateResource.Cache
+C:\Users\ghm\Desktop\InvoiceApp\InvoiceApp\obj\Debug\InvoiceApp.exe
+C:\Users\ghm\Desktop\InvoiceApp\InvoiceApp\obj\Debug\InvoiceApp.pdb
+D:\Amit\My\Work\Project\Invoice App Project\Crstal Report\Second\InvoiceApp\InvoiceApp\bin\Debug\InvoiceApp.exe.config
+D:\Amit\My\Work\Project\Invoice App Project\Crstal Report\Second\InvoiceApp\InvoiceApp\obj\Debug\InvoiceApp.exe
+D:\Amit\My\Work\Project\Invoice App Project\Crstal Report\Second\InvoiceApp\InvoiceApp\obj\Debug\InvoiceApp.pdb
+D:\Amit\My\Work\Project\Invoice App Project\Crstal Report\Second\InvoiceApp\InvoiceApp\bin\Debug\InvoiceApp.exe
+D:\Amit\My\Work\Project\Invoice App Project\Crstal Report\Second\InvoiceApp\InvoiceApp\bin\Debug\InvoiceApp.pdb
+D:\Amit\My\Work\Project\Invoice App Project\Crstal Report\Second\InvoiceApp\InvoiceApp\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+D:\Amit\My\Work\Project\Invoice App Project\Crstal Report\Second\InvoiceApp\InvoiceApp\bin\Debug\CrystalDecisions.ReportSource.dll
+D:\Amit\My\Work\Project\Invoice App Project\Crstal Report\Second\InvoiceApp\InvoiceApp\bin\Debug\CrystalDecisions.Shared.dll
+D:\Amit\My\Work\Project\Invoice App Project\Crstal Report\Second\InvoiceApp\InvoiceApp\bin\Debug\SAPBusinessObjects.WPF.Viewer.dll
+D:\Amit\My\Work\Project\Invoice App Project\Crstal Report\Second\InvoiceApp\InvoiceApp\bin\Debug\SAPBusinessObjects.WPF.ViewerShared.dll
+D:\Amit\My\Work\Project\Invoice App Project\Crstal Report\Second\InvoiceApp\InvoiceApp\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+D:\Amit\My\Work\Project\Invoice App Project\Crstal Report\Second\InvoiceApp\InvoiceApp\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+D:\Amit\My\Work\Project\Invoice App Project\Crstal Report\Second\InvoiceApp\InvoiceApp\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+D:\Amit\My\Work\Project\Invoice App Project\Crstal Report\Second\InvoiceApp\InvoiceApp\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+D:\Amit\My\Work\Project\Invoice App Project\Crstal Report\Second\InvoiceApp\InvoiceApp\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+D:\Amit\My\Work\Project\Invoice App Project\Crstal Report\Second\InvoiceApp\InvoiceApp\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+D:\Amit\My\Work\Project\Invoice App Project\Crstal Report\Second\InvoiceApp\InvoiceApp\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+D:\Amit\My\Work\Project\Invoice App Project\Crstal Report\Second\InvoiceApp\InvoiceApp\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+D:\Amit\My\Work\Project\Invoice App Project\Crstal Report\Second\InvoiceApp\InvoiceApp\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+D:\Amit\My\Work\Project\Invoice App Project\Crstal Report\Second\InvoiceApp\InvoiceApp\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+D:\Amit\My\Work\Project\Invoice App Project\Crstal Report\Second\InvoiceApp\InvoiceApp\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+D:\Amit\My\Work\Project\Invoice App Project\Crstal Report\Second\InvoiceApp\InvoiceApp\bin\Debug\FlashControlV71.dll
+D:\Amit\My\Work\Project\Invoice App Project\Crstal Report\Second\InvoiceApp\InvoiceApp\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+D:\Amit\My\Work\Project\Invoice App Project\Crstal Report\Second\InvoiceApp\InvoiceApp\bin\Debug\stdole.dll
+D:\Amit\My\Work\Project\Invoice App Project\Crstal Report\Second\InvoiceApp\InvoiceApp\bin\Debug\ShockwaveFlashObjects.dll
+D:\Amit\My\Work\Project\Invoice App Project\Crstal Report\Second\InvoiceApp\InvoiceApp\obj\Debug\Themes\btnPlain.baml
+D:\Amit\My\Work\Project\Invoice App Project\Crstal Report\Second\InvoiceApp\InvoiceApp\obj\Debug\Themes\DataGridDark.baml
+D:\Amit\My\Work\Project\Invoice App Project\Crstal Report\Second\InvoiceApp\InvoiceApp\obj\Debug\Themes\DataGridDark_brushes.baml
+D:\Amit\My\Work\Project\Invoice App Project\Crstal Report\Second\InvoiceApp\InvoiceApp\obj\Debug\Themes\MyResources.baml
+D:\Amit\My\Work\Project\Invoice App Project\Crstal Report\Second\InvoiceApp\InvoiceApp\obj\Debug\winReportViewer2.baml
+D:\Amit\My\Work\Project\Invoice App Project\Crstal Report\Second\InvoiceApp\InvoiceApp\obj\Debug\winInvoice.g.cs
+D:\Amit\My\Work\Project\Invoice App Project\Crstal Report\Second\InvoiceApp\InvoiceApp\obj\Debug\winItem.g.cs
+D:\Amit\My\Work\Project\Invoice App Project\Crstal Report\Second\InvoiceApp\InvoiceApp\obj\Debug\winReportViewer2.g.cs
+D:\Amit\My\Work\Project\Invoice App Project\Crstal Report\Second\InvoiceApp\InvoiceApp\obj\Debug\App.g.cs
+D:\Amit\My\Work\Project\Invoice App Project\Crstal Report\Second\InvoiceApp\InvoiceApp\obj\Debug\InvoiceApp_MarkupCompile.cache
+D:\Amit\My\Work\Project\Invoice App Project\Crstal Report\Second\InvoiceApp\InvoiceApp\obj\Debug\InvoiceApp_MarkupCompile.lref
+D:\Amit\My\Work\Project\Invoice App Project\Crstal Report\Second\InvoiceApp\InvoiceApp\obj\Debug\App.baml
+D:\Amit\My\Work\Project\Invoice App Project\Crstal Report\Second\InvoiceApp\InvoiceApp\obj\Debug\winInvoice.baml
+D:\Amit\My\Work\Project\Invoice App Project\Crstal Report\Second\InvoiceApp\InvoiceApp\obj\Debug\winItem.baml
+D:\Amit\My\Work\Project\Invoice App Project\Crstal Report\Second\InvoiceApp\InvoiceApp\obj\Debug\InvoiceApp.g.resources
+D:\Amit\My\Work\Project\Invoice App Project\Crstal Report\Second\InvoiceApp\InvoiceApp\obj\Debug\InvoiceApp.Properties.Resources.resources
+D:\Amit\My\Work\Project\Invoice App Project\Crstal Report\Second\InvoiceApp\InvoiceApp\obj\Debug\InvoiceApp.csproj.GenerateResource.Cache
+D:\Amit\My\Work\Project\Invoice App Project\Crstal Report\Second\InvoiceApp\InvoiceApp\bin\Debug\CrystalReportInvoice.rpt
+D:\Amit\My\Work\Project\Invoice App Project\Crstal Report\Second\InvoiceApp\InvoiceApp\bin\Debug\CrystalReportInvoice.cs
+C:\Users\ghm\Desktop\InvoiceApp\InvoiceApp\bin\Debug\CrystalReportInvoice.rpt
+C:\Users\ghm\Desktop\InvoiceApp\InvoiceApp\bin\Debug\CrystalReportInvoice.cs
+D:\Amit\My\Work\Project\Invoice App Project\Crstal Report Current Working\InvoiceApp\InvoiceApp\bin\Debug\InvoiceApp.exe.config
+D:\Amit\My\Work\Project\Invoice App Project\Crstal Report Current Working\InvoiceApp\InvoiceApp\obj\Debug\InvoiceApp.exe
+D:\Amit\My\Work\Project\Invoice App Project\Crstal Report Current Working\InvoiceApp\InvoiceApp\obj\Debug\InvoiceApp.pdb
+D:\Amit\My\Work\Project\Invoice App Project\Crstal Report Current Working\InvoiceApp\InvoiceApp\bin\Debug\CrystalReportInvoice.rpt
+D:\Amit\My\Work\Project\Invoice App Project\Crstal Report Current Working\InvoiceApp\InvoiceApp\bin\Debug\CrystalReportInvoice.cs
+D:\Amit\My\Work\Project\Invoice App Project\Crstal Report Current Working\InvoiceApp\InvoiceApp\bin\Debug\InvoiceApp.exe
+D:\Amit\My\Work\Project\Invoice App Project\Crstal Report Current Working\InvoiceApp\InvoiceApp\bin\Debug\InvoiceApp.pdb
+D:\Amit\My\Work\Project\Invoice App Project\Crstal Report Current Working\InvoiceApp\InvoiceApp\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+D:\Amit\My\Work\Project\Invoice App Project\Crstal Report Current Working\InvoiceApp\InvoiceApp\bin\Debug\CrystalDecisions.ReportSource.dll
+D:\Amit\My\Work\Project\Invoice App Project\Crstal Report Current Working\InvoiceApp\InvoiceApp\bin\Debug\CrystalDecisions.Shared.dll
+D:\Amit\My\Work\Project\Invoice App Project\Crstal Report Current Working\InvoiceApp\InvoiceApp\bin\Debug\SAPBusinessObjects.WPF.Viewer.dll
+D:\Amit\My\Work\Project\Invoice App Project\Crstal Report Current Working\InvoiceApp\InvoiceApp\bin\Debug\SAPBusinessObjects.WPF.ViewerShared.dll
+D:\Amit\My\Work\Project\Invoice App Project\Crstal Report Current Working\InvoiceApp\InvoiceApp\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+D:\Amit\My\Work\Project\Invoice App Project\Crstal Report Current Working\InvoiceApp\InvoiceApp\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+D:\Amit\My\Work\Project\Invoice App Project\Crstal Report Current Working\InvoiceApp\InvoiceApp\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+D:\Amit\My\Work\Project\Invoice App Project\Crstal Report Current Working\InvoiceApp\InvoiceApp\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+D:\Amit\My\Work\Project\Invoice App Project\Crstal Report Current Working\InvoiceApp\InvoiceApp\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+D:\Amit\My\Work\Project\Invoice App Project\Crstal Report Current Working\InvoiceApp\InvoiceApp\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+D:\Amit\My\Work\Project\Invoice App Project\Crstal Report Current Working\InvoiceApp\InvoiceApp\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+D:\Amit\My\Work\Project\Invoice App Project\Crstal Report Current Working\InvoiceApp\InvoiceApp\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+D:\Amit\My\Work\Project\Invoice App Project\Crstal Report Current Working\InvoiceApp\InvoiceApp\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+D:\Amit\My\Work\Project\Invoice App Project\Crstal Report Current Working\InvoiceApp\InvoiceApp\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+D:\Amit\My\Work\Project\Invoice App Project\Crstal Report Current Working\InvoiceApp\InvoiceApp\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+D:\Amit\My\Work\Project\Invoice App Project\Crstal Report Current Working\InvoiceApp\InvoiceApp\bin\Debug\FlashControlV71.dll
+D:\Amit\My\Work\Project\Invoice App Project\Crstal Report Current Working\InvoiceApp\InvoiceApp\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+D:\Amit\My\Work\Project\Invoice App Project\Crstal Report Current Working\InvoiceApp\InvoiceApp\bin\Debug\stdole.dll
+D:\Amit\My\Work\Project\Invoice App Project\Crstal Report Current Working\InvoiceApp\InvoiceApp\bin\Debug\ShockwaveFlashObjects.dll
+D:\Amit\My\Work\Project\Invoice App Project\Crstal Report Current Working\InvoiceApp\InvoiceApp\obj\Debug\Themes\btnPlain.baml
+D:\Amit\My\Work\Project\Invoice App Project\Crstal Report Current Working\InvoiceApp\InvoiceApp\obj\Debug\Themes\DataGridDark.baml
+D:\Amit\My\Work\Project\Invoice App Project\Crstal Report Current Working\InvoiceApp\InvoiceApp\obj\Debug\Themes\DataGridDark_brushes.baml
+D:\Amit\My\Work\Project\Invoice App Project\Crstal Report Current Working\InvoiceApp\InvoiceApp\obj\Debug\Themes\MyResources.baml
+D:\Amit\My\Work\Project\Invoice App Project\Crstal Report Current Working\InvoiceApp\InvoiceApp\obj\Debug\winReportViewer2.baml
+D:\Amit\My\Work\Project\Invoice App Project\Crstal Report Current Working\InvoiceApp\InvoiceApp\obj\Debug\winInvoice.g.cs
+D:\Amit\My\Work\Project\Invoice App Project\Crstal Report Current Working\InvoiceApp\InvoiceApp\obj\Debug\winItem.g.cs
+D:\Amit\My\Work\Project\Invoice App Project\Crstal Report Current Working\InvoiceApp\InvoiceApp\obj\Debug\winReportViewer2.g.cs
+D:\Amit\My\Work\Project\Invoice App Project\Crstal Report Current Working\InvoiceApp\InvoiceApp\obj\Debug\App.g.cs
+D:\Amit\My\Work\Project\Invoice App Project\Crstal Report Current Working\InvoiceApp\InvoiceApp\obj\Debug\InvoiceApp_MarkupCompile.cache
+D:\Amit\My\Work\Project\Invoice App Project\Crstal Report Current Working\InvoiceApp\InvoiceApp\obj\Debug\InvoiceApp_MarkupCompile.lref
+D:\Amit\My\Work\Project\Invoice App Project\Crstal Report Current Working\InvoiceApp\InvoiceApp\obj\Debug\App.baml
+D:\Amit\My\Work\Project\Invoice App Project\Crstal Report Current Working\InvoiceApp\InvoiceApp\obj\Debug\winInvoice.baml
+D:\Amit\My\Work\Project\Invoice App Project\Crstal Report Current Working\InvoiceApp\InvoiceApp\obj\Debug\winItem.baml
+D:\Amit\My\Work\Project\Invoice App Project\Crstal Report Current Working\InvoiceApp\InvoiceApp\obj\Debug\InvoiceApp.g.resources
+D:\Amit\My\Work\Project\Invoice App Project\Crstal Report Current Working\InvoiceApp\InvoiceApp\obj\Debug\InvoiceApp.Properties.Resources.resources
+D:\Amit\My\Work\Project\Invoice App Project\Crstal Report Current Working\InvoiceApp\InvoiceApp\obj\Debug\InvoiceApp.csproj.GenerateResource.Cache
+D:\Amit\My\Work\Project\Invoice App Project\Crstal Report Current Working\InvoiceApp\InvoiceApp\obj\Debug\InvoiceApp.csprojResolveAssemblyReference.cache
+D:\Amit\My\Work\Project\Invoice App Project\Crstal Report Current Working\InvoiceApp2.0\InvoiceApp\bin\Debug\InvoiceApp.exe.config
+D:\Amit\My\Work\Project\Invoice App Project\Crstal Report Current Working\InvoiceApp2.0\InvoiceApp\obj\Debug\InvoiceApp.exe
+D:\Amit\My\Work\Project\Invoice App Project\Crstal Report Current Working\InvoiceApp2.0\InvoiceApp\obj\Debug\InvoiceApp.pdb
+D:\Amit\My\Work\Project\Invoice App Project\Crstal Report Current Working\InvoiceApp2.0\InvoiceApp\obj\Debug\Themes\btnPlain.baml
+D:\Amit\My\Work\Project\Invoice App Project\Crstal Report Current Working\InvoiceApp2.0\InvoiceApp\obj\Debug\Themes\DataGridDark.baml
+D:\Amit\My\Work\Project\Invoice App Project\Crstal Report Current Working\InvoiceApp2.0\InvoiceApp\obj\Debug\Themes\DataGridDark_brushes.baml
+D:\Amit\My\Work\Project\Invoice App Project\Crstal Report Current Working\InvoiceApp2.0\InvoiceApp\obj\Debug\Themes\MyResources.baml
+D:\Amit\My\Work\Project\Invoice App Project\Crstal Report Current Working\InvoiceApp2.0\InvoiceApp\obj\Debug\winReportViewer2.baml
+D:\Amit\My\Work\Project\Invoice App Project\Crstal Report Current Working\InvoiceApp2.0\InvoiceApp\obj\Debug\winInvoice.g.cs
+D:\Amit\My\Work\Project\Invoice App Project\Crstal Report Current Working\InvoiceApp2.0\InvoiceApp\obj\Debug\winItem.g.cs
+D:\Amit\My\Work\Project\Invoice App Project\Crstal Report Current Working\InvoiceApp2.0\InvoiceApp\obj\Debug\winReportViewer2.g.cs
+D:\Amit\My\Work\Project\Invoice App Project\Crstal Report Current Working\InvoiceApp2.0\InvoiceApp\obj\Debug\App.g.cs
+D:\Amit\My\Work\Project\Invoice App Project\Crstal Report Current Working\InvoiceApp2.0\InvoiceApp\obj\Debug\InvoiceApp_MarkupCompile.cache
+D:\Amit\My\Work\Project\Invoice App Project\Crstal Report Current Working\InvoiceApp2.0\InvoiceApp\obj\Debug\InvoiceApp_MarkupCompile.lref
+D:\Amit\My\Work\Project\Invoice App Project\Crstal Report Current Working\InvoiceApp2.0\InvoiceApp\bin\Debug\CrystalReportInvoice.rpt
+D:\Amit\My\Work\Project\Invoice App Project\Crstal Report Current Working\InvoiceApp2.0\InvoiceApp\bin\Debug\CrystalReportInvoice.cs
+D:\Amit\My\Work\Project\Invoice App Project\Crstal Report Current Working\InvoiceApp2.0\InvoiceApp\bin\Debug\InvoiceApp.exe
+D:\Amit\My\Work\Project\Invoice App Project\Crstal Report Current Working\InvoiceApp2.0\InvoiceApp\bin\Debug\InvoiceApp.pdb
+D:\Amit\My\Work\Project\Invoice App Project\Crstal Report Current Working\InvoiceApp2.0\InvoiceApp\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+D:\Amit\My\Work\Project\Invoice App Project\Crstal Report Current Working\InvoiceApp2.0\InvoiceApp\bin\Debug\CrystalDecisions.ReportSource.dll
+D:\Amit\My\Work\Project\Invoice App Project\Crstal Report Current Working\InvoiceApp2.0\InvoiceApp\bin\Debug\CrystalDecisions.Shared.dll
+D:\Amit\My\Work\Project\Invoice App Project\Crstal Report Current Working\InvoiceApp2.0\InvoiceApp\bin\Debug\SAPBusinessObjects.WPF.Viewer.dll
+D:\Amit\My\Work\Project\Invoice App Project\Crstal Report Current Working\InvoiceApp2.0\InvoiceApp\bin\Debug\SAPBusinessObjects.WPF.ViewerShared.dll
+D:\Amit\My\Work\Project\Invoice App Project\Crstal Report Current Working\InvoiceApp2.0\InvoiceApp\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+D:\Amit\My\Work\Project\Invoice App Project\Crstal Report Current Working\InvoiceApp2.0\InvoiceApp\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+D:\Amit\My\Work\Project\Invoice App Project\Crstal Report Current Working\InvoiceApp2.0\InvoiceApp\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+D:\Amit\My\Work\Project\Invoice App Project\Crstal Report Current Working\InvoiceApp2.0\InvoiceApp\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+D:\Amit\My\Work\Project\Invoice App Project\Crstal Report Current Working\InvoiceApp2.0\InvoiceApp\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+D:\Amit\My\Work\Project\Invoice App Project\Crstal Report Current Working\InvoiceApp2.0\InvoiceApp\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+D:\Amit\My\Work\Project\Invoice App Project\Crstal Report Current Working\InvoiceApp2.0\InvoiceApp\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+D:\Amit\My\Work\Project\Invoice App Project\Crstal Report Current Working\InvoiceApp2.0\InvoiceApp\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+D:\Amit\My\Work\Project\Invoice App Project\Crstal Report Current Working\InvoiceApp2.0\InvoiceApp\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+D:\Amit\My\Work\Project\Invoice App Project\Crstal Report Current Working\InvoiceApp2.0\InvoiceApp\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+D:\Amit\My\Work\Project\Invoice App Project\Crstal Report Current Working\InvoiceApp2.0\InvoiceApp\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+D:\Amit\My\Work\Project\Invoice App Project\Crstal Report Current Working\InvoiceApp2.0\InvoiceApp\bin\Debug\FlashControlV71.dll
+D:\Amit\My\Work\Project\Invoice App Project\Crstal Report Current Working\InvoiceApp2.0\InvoiceApp\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+D:\Amit\My\Work\Project\Invoice App Project\Crstal Report Current Working\InvoiceApp2.0\InvoiceApp\bin\Debug\stdole.dll
+D:\Amit\My\Work\Project\Invoice App Project\Crstal Report Current Working\InvoiceApp2.0\InvoiceApp\bin\Debug\ShockwaveFlashObjects.dll
+D:\Amit\My\Work\Project\Invoice App Project\Crstal Report Current Working\InvoiceApp2.0\InvoiceApp\obj\Debug\App.baml
+D:\Amit\My\Work\Project\Invoice App Project\Crstal Report Current Working\InvoiceApp2.0\InvoiceApp\obj\Debug\winInvoice.baml
+D:\Amit\My\Work\Project\Invoice App Project\Crstal Report Current Working\InvoiceApp2.0\InvoiceApp\obj\Debug\winItem.baml
+D:\Amit\My\Work\Project\Invoice App Project\Crstal Report Current Working\InvoiceApp2.0\InvoiceApp\obj\Debug\InvoiceApp.g.resources
+D:\Amit\My\Work\Project\Invoice App Project\Crstal Report Current Working\InvoiceApp2.0\InvoiceApp\obj\Debug\InvoiceApp.Properties.Resources.resources
+D:\Amit\My\Work\Project\Invoice App Project\Crstal Report Current Working\InvoiceApp2.0\InvoiceApp\obj\Debug\InvoiceApp.csproj.GenerateResource.Cache
+D:\Amit\My\Work\Project\Invoice App Project\Crstal Report Current Working\InvoiceApp2.0\InvoiceApp\obj\Debug\SummaryReport.g.cs
+D:\Amit\My\Work\Project\Invoice App Project\Crstal Report Current Working\InvoiceApp2.0\InvoiceApp\obj\Debug\SummaryReport.baml
+D:\Amit\My\Work\Project\Invoice App Project\Crstal Report Current Working\InvoiceApp3.0\InvoiceApp\bin\Debug\InvoiceApp.exe.config
+D:\Amit\My\Work\Project\Invoice App Project\Crstal Report Current Working\InvoiceApp3.0\InvoiceApp\obj\Debug\InvoiceApp.exe
+D:\Amit\My\Work\Project\Invoice App Project\Crstal Report Current Working\InvoiceApp3.0\InvoiceApp\obj\Debug\InvoiceApp.pdb
+D:\Amit\My\Work\Project\Invoice App Project\Crstal Report Current Working\InvoiceApp3.0\InvoiceApp\obj\Debug\Themes\btnPlain.baml
+D:\Amit\My\Work\Project\Invoice App Project\Crstal Report Current Working\InvoiceApp3.0\InvoiceApp\obj\Debug\Themes\DataGridDark.baml
+D:\Amit\My\Work\Project\Invoice App Project\Crstal Report Current Working\InvoiceApp3.0\InvoiceApp\obj\Debug\Themes\DataGridDark_brushes.baml
+D:\Amit\My\Work\Project\Invoice App Project\Crstal Report Current Working\InvoiceApp3.0\InvoiceApp\obj\Debug\Themes\MyResources.baml
+D:\Amit\My\Work\Project\Invoice App Project\Crstal Report Current Working\InvoiceApp3.0\InvoiceApp\obj\Debug\winReportViewer2.baml
+D:\Amit\My\Work\Project\Invoice App Project\Crstal Report Current Working\InvoiceApp3.0\InvoiceApp\obj\Debug\SummaryReport.g.cs
+D:\Amit\My\Work\Project\Invoice App Project\Crstal Report Current Working\InvoiceApp3.0\InvoiceApp\obj\Debug\winInvoice.g.cs
+D:\Amit\My\Work\Project\Invoice App Project\Crstal Report Current Working\InvoiceApp3.0\InvoiceApp\obj\Debug\winItem.g.cs
+D:\Amit\My\Work\Project\Invoice App Project\Crstal Report Current Working\InvoiceApp3.0\InvoiceApp\obj\Debug\winReportViewer2.g.cs
+D:\Amit\My\Work\Project\Invoice App Project\Crstal Report Current Working\InvoiceApp3.0\InvoiceApp\obj\Debug\App.g.cs
+D:\Amit\My\Work\Project\Invoice App Project\Crstal Report Current Working\InvoiceApp3.0\InvoiceApp\obj\Debug\InvoiceApp_MarkupCompile.cache
+D:\Amit\My\Work\Project\Invoice App Project\Crstal Report Current Working\InvoiceApp3.0\InvoiceApp\obj\Debug\InvoiceApp_MarkupCompile.lref
+D:\Amit\My\Work\Project\Invoice App Project\Crstal Report Current Working\InvoiceApp3.0\InvoiceApp\bin\Debug\CrystalReportInvoice.rpt
+D:\Amit\My\Work\Project\Invoice App Project\Crstal Report Current Working\InvoiceApp3.0\InvoiceApp\bin\Debug\CrystalReportInvoice.cs
+D:\Amit\My\Work\Project\Invoice App Project\Crstal Report Current Working\InvoiceApp3.0\InvoiceApp\bin\Debug\InvoiceApp.exe
+D:\Amit\My\Work\Project\Invoice App Project\Crstal Report Current Working\InvoiceApp3.0\InvoiceApp\bin\Debug\InvoiceApp.pdb
+D:\Amit\My\Work\Project\Invoice App Project\Crstal Report Current Working\InvoiceApp3.0\InvoiceApp\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+D:\Amit\My\Work\Project\Invoice App Project\Crstal Report Current Working\InvoiceApp3.0\InvoiceApp\bin\Debug\CrystalDecisions.ReportSource.dll
+D:\Amit\My\Work\Project\Invoice App Project\Crstal Report Current Working\InvoiceApp3.0\InvoiceApp\bin\Debug\CrystalDecisions.Shared.dll
+D:\Amit\My\Work\Project\Invoice App Project\Crstal Report Current Working\InvoiceApp3.0\InvoiceApp\bin\Debug\SAPBusinessObjects.WPF.Viewer.dll
+D:\Amit\My\Work\Project\Invoice App Project\Crstal Report Current Working\InvoiceApp3.0\InvoiceApp\bin\Debug\SAPBusinessObjects.WPF.ViewerShared.dll
+D:\Amit\My\Work\Project\Invoice App Project\Crstal Report Current Working\InvoiceApp3.0\InvoiceApp\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+D:\Amit\My\Work\Project\Invoice App Project\Crstal Report Current Working\InvoiceApp3.0\InvoiceApp\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+D:\Amit\My\Work\Project\Invoice App Project\Crstal Report Current Working\InvoiceApp3.0\InvoiceApp\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+D:\Amit\My\Work\Project\Invoice App Project\Crstal Report Current Working\InvoiceApp3.0\InvoiceApp\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+D:\Amit\My\Work\Project\Invoice App Project\Crstal Report Current Working\InvoiceApp3.0\InvoiceApp\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+D:\Amit\My\Work\Project\Invoice App Project\Crstal Report Current Working\InvoiceApp3.0\InvoiceApp\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+D:\Amit\My\Work\Project\Invoice App Project\Crstal Report Current Working\InvoiceApp3.0\InvoiceApp\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+D:\Amit\My\Work\Project\Invoice App Project\Crstal Report Current Working\InvoiceApp3.0\InvoiceApp\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+D:\Amit\My\Work\Project\Invoice App Project\Crstal Report Current Working\InvoiceApp3.0\InvoiceApp\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+D:\Amit\My\Work\Project\Invoice App Project\Crstal Report Current Working\InvoiceApp3.0\InvoiceApp\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+D:\Amit\My\Work\Project\Invoice App Project\Crstal Report Current Working\InvoiceApp3.0\InvoiceApp\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+D:\Amit\My\Work\Project\Invoice App Project\Crstal Report Current Working\InvoiceApp3.0\InvoiceApp\bin\Debug\FlashControlV71.dll
+D:\Amit\My\Work\Project\Invoice App Project\Crstal Report Current Working\InvoiceApp3.0\InvoiceApp\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+D:\Amit\My\Work\Project\Invoice App Project\Crstal Report Current Working\InvoiceApp3.0\InvoiceApp\bin\Debug\stdole.dll
+D:\Amit\My\Work\Project\Invoice App Project\Crstal Report Current Working\InvoiceApp3.0\InvoiceApp\bin\Debug\ShockwaveFlashObjects.dll
+D:\Amit\My\Work\Project\Invoice App Project\Crstal Report Current Working\InvoiceApp3.0\InvoiceApp\obj\Debug\winAddress.g.cs
+D:\Amit\My\Work\Project\Invoice App Project\Crstal Report Current Working\InvoiceApp3.0\InvoiceApp\obj\Debug\App.baml
+D:\Amit\My\Work\Project\Invoice App Project\Crstal Report Current Working\InvoiceApp3.0\InvoiceApp\obj\Debug\SummaryReport.baml
+D:\Amit\My\Work\Project\Invoice App Project\Crstal Report Current Working\InvoiceApp3.0\InvoiceApp\obj\Debug\winInvoice.baml
+D:\Amit\My\Work\Project\Invoice App Project\Crstal Report Current Working\InvoiceApp3.0\InvoiceApp\obj\Debug\winItem.baml
+D:\Amit\My\Work\Project\Invoice App Project\Crstal Report Current Working\InvoiceApp3.0\InvoiceApp\obj\Debug\winAddress.baml
+D:\Amit\My\Work\Project\Invoice App Project\Crstal Report Current Working\InvoiceApp3.0\InvoiceApp\obj\Debug\InvoiceApp.g.resources
+D:\Amit\My\Work\Project\Invoice App Project\Crstal Report Current Working\InvoiceApp3.0\InvoiceApp\obj\Debug\InvoiceApp.Properties.Resources.resources
+D:\Amit\My\Work\Project\Invoice App Project\Crstal Report Current Working\InvoiceApp3.0\InvoiceApp\obj\Debug\InvoiceApp.csproj.GenerateResource.Cache
+D:\Amit\My\Work\Project\Invoice App Project\Crstal Report Current Working\InvoiceApp3.0\InvoiceApp\obj\Debug\winHeader.g.cs
+D:\Amit\My\Work\Project\Invoice App Project\Crstal Report Current Working\InvoiceApp3.0\InvoiceApp\obj\Debug\winHeader.baml
+D:\Amit\Other\My\Work\Project\Invoice App Project\Crstal Report Current Working\InvoiceApp3.0\InvoiceApp\bin\Debug\InvoiceApp.exe.config
+D:\Amit\Other\My\Work\Project\Invoice App Project\Crstal Report Current Working\InvoiceApp3.0\InvoiceApp\obj\Debug\InvoiceApp.exe
+D:\Amit\Other\My\Work\Project\Invoice App Project\Crstal Report Current Working\InvoiceApp3.0\InvoiceApp\obj\Debug\InvoiceApp.pdb
+D:\Amit\My\Project\Invoice App Project\Crstal Report Current Working\InvoiceApp3.0\InvoiceApp\bin\Debug\CrystalReportInvoice.rpt
+D:\Amit\My\Project\Invoice App Project\Crstal Report Current Working\InvoiceApp3.0\InvoiceApp\bin\Debug\CrystalReportInvoice.cs
+D:\Amit\My\Project\Invoice App Project\Crstal Report Current Working\InvoiceApp3.0\InvoiceApp\bin\Debug\InvoiceApp.exe.config
+D:\Amit\My\Project\Invoice App Project\Crstal Report Current Working\InvoiceApp3.0\InvoiceApp\bin\Debug\InvoiceApp.exe
+D:\Amit\My\Project\Invoice App Project\Crstal Report Current Working\InvoiceApp3.0\InvoiceApp\bin\Debug\InvoiceApp.pdb
+D:\Amit\My\Project\Invoice App Project\Crstal Report Current Working\InvoiceApp3.0\InvoiceApp\bin\Debug\SAPBusinessObjects.WPF.Viewer.dll
+D:\Amit\My\Project\Invoice App Project\Crstal Report Current Working\InvoiceApp3.0\InvoiceApp\bin\Debug\SAPBusinessObjects.WPF.ViewerShared.dll
+D:\Amit\My\Project\Invoice App Project\Crstal Report Current Working\InvoiceApp3.0\InvoiceApp\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+D:\Amit\My\Project\Invoice App Project\Crstal Report Current Working\InvoiceApp3.0\InvoiceApp\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+D:\Amit\My\Project\Invoice App Project\Crstal Report Current Working\InvoiceApp3.0\InvoiceApp\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+D:\Amit\My\Project\Invoice App Project\Crstal Report Current Working\InvoiceApp3.0\InvoiceApp\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+D:\Amit\My\Project\Invoice App Project\Crstal Report Current Working\InvoiceApp3.0\InvoiceApp\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+D:\Amit\My\Project\Invoice App Project\Crstal Report Current Working\InvoiceApp3.0\InvoiceApp\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+D:\Amit\My\Project\Invoice App Project\Crstal Report Current Working\InvoiceApp3.0\InvoiceApp\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+D:\Amit\My\Project\Invoice App Project\Crstal Report Current Working\InvoiceApp3.0\InvoiceApp\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+D:\Amit\My\Project\Invoice App Project\Crstal Report Current Working\InvoiceApp3.0\InvoiceApp\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+D:\Amit\My\Project\Invoice App Project\Crstal Report Current Working\InvoiceApp3.0\InvoiceApp\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+D:\Amit\My\Project\Invoice App Project\Crstal Report Current Working\InvoiceApp3.0\InvoiceApp\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+D:\Amit\My\Project\Invoice App Project\Crstal Report Current Working\InvoiceApp3.0\InvoiceApp\bin\Debug\FlashControlV71.dll
+D:\Amit\My\Project\Invoice App Project\Crstal Report Current Working\InvoiceApp3.0\InvoiceApp\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+D:\Amit\My\Project\Invoice App Project\Crstal Report Current Working\InvoiceApp3.0\InvoiceApp\bin\Debug\stdole.dll
+D:\Amit\My\Project\Invoice App Project\Crstal Report Current Working\InvoiceApp3.0\InvoiceApp\bin\Debug\ShockwaveFlashObjects.dll
+D:\Amit\My\Project\Invoice App Project\Crstal Report Current Working\InvoiceApp3.0\InvoiceApp\obj\Debug\InvoiceApp.csprojAssemblyReference.cache
+D:\Amit\My\Project\Invoice App Project\Crstal Report Current Working\InvoiceApp3.0\InvoiceApp\obj\Debug\InvoiceApp.exe.config
+D:\Amit\My\Project\Invoice App Project\Crstal Report Current Working\InvoiceApp3.0\InvoiceApp\obj\Debug\Themes\btnPlain.baml
+D:\Amit\My\Project\Invoice App Project\Crstal Report Current Working\InvoiceApp3.0\InvoiceApp\obj\Debug\Themes\DataGridDark.baml
+D:\Amit\My\Project\Invoice App Project\Crstal Report Current Working\InvoiceApp3.0\InvoiceApp\obj\Debug\Themes\DataGridDark_brushes.baml
+D:\Amit\My\Project\Invoice App Project\Crstal Report Current Working\InvoiceApp3.0\InvoiceApp\obj\Debug\Themes\MyResources.baml
+D:\Amit\My\Project\Invoice App Project\Crstal Report Current Working\InvoiceApp3.0\InvoiceApp\obj\Debug\winReportViewer2.baml
+D:\Amit\My\Project\Invoice App Project\Crstal Report Current Working\InvoiceApp3.0\InvoiceApp\obj\Debug\SummaryReport.g.cs
+D:\Amit\My\Project\Invoice App Project\Crstal Report Current Working\InvoiceApp3.0\InvoiceApp\obj\Debug\winAddress.g.cs
+D:\Amit\My\Project\Invoice App Project\Crstal Report Current Working\InvoiceApp3.0\InvoiceApp\obj\Debug\winHeader.g.cs
+D:\Amit\My\Project\Invoice App Project\Crstal Report Current Working\InvoiceApp3.0\InvoiceApp\obj\Debug\winInvoice.g.cs
+D:\Amit\My\Project\Invoice App Project\Crstal Report Current Working\InvoiceApp3.0\InvoiceApp\obj\Debug\winItem.g.cs
+D:\Amit\My\Project\Invoice App Project\Crstal Report Current Working\InvoiceApp3.0\InvoiceApp\obj\Debug\winReportViewer2.g.cs
+D:\Amit\My\Project\Invoice App Project\Crstal Report Current Working\InvoiceApp3.0\InvoiceApp\obj\Debug\App.g.cs
+D:\Amit\My\Project\Invoice App Project\Crstal Report Current Working\InvoiceApp3.0\InvoiceApp\obj\Debug\InvoiceApp_MarkupCompile.cache
+D:\Amit\My\Project\Invoice App Project\Crstal Report Current Working\InvoiceApp3.0\InvoiceApp\obj\Debug\InvoiceApp_MarkupCompile.lref
+D:\Amit\My\Project\Invoice App Project\Crstal Report Current Working\InvoiceApp3.0\InvoiceApp\obj\Debug\App.baml
+D:\Amit\My\Project\Invoice App Project\Crstal Report Current Working\InvoiceApp3.0\InvoiceApp\obj\Debug\SummaryReport.baml
+D:\Amit\My\Project\Invoice App Project\Crstal Report Current Working\InvoiceApp3.0\InvoiceApp\obj\Debug\winAddress.baml
+D:\Amit\My\Project\Invoice App Project\Crstal Report Current Working\InvoiceApp3.0\InvoiceApp\obj\Debug\winHeader.baml
+D:\Amit\My\Project\Invoice App Project\Crstal Report Current Working\InvoiceApp3.0\InvoiceApp\obj\Debug\winInvoice.baml
+D:\Amit\My\Project\Invoice App Project\Crstal Report Current Working\InvoiceApp3.0\InvoiceApp\obj\Debug\winItem.baml
+D:\Amit\My\Project\Invoice App Project\Crstal Report Current Working\InvoiceApp3.0\InvoiceApp\obj\Debug\InvoiceApp.g.resources
+D:\Amit\My\Project\Invoice App Project\Crstal Report Current Working\InvoiceApp3.0\InvoiceApp\obj\Debug\InvoiceApp.Properties.Resources.resources
+D:\Amit\My\Project\Invoice App Project\Crstal Report Current Working\InvoiceApp3.0\InvoiceApp\obj\Debug\InvoiceApp.csproj.GenerateResource.cache
+D:\Amit\My\Project\Invoice App Project\Crstal Report Current Working\InvoiceApp3.0\InvoiceApp\obj\Debug\InvoiceApp.csproj.CoreCompileInputs.cache
+D:\Amit\My\Project\Invoice App Project\Crstal Report Current Working\InvoiceApp3.0\InvoiceApp\obj\Debug\InvoiceApp.csproj.CopyComplete
+D:\Amit\My\Project\Invoice App Project\Crstal Report Current Working\InvoiceApp3.0\InvoiceApp\obj\Debug\InvoiceApp.exe
+D:\Amit\My\Project\Invoice App Project\Crstal Report Current Working\InvoiceApp3.0\InvoiceApp\obj\Debug\InvoiceApp.pdb

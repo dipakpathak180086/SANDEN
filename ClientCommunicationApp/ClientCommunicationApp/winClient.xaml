@@ -1,0 +1,30 @@
+﻿<Window x:Class="ClientCommunicationApp.winClient"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ClientCommunicationApp"
+        mc:Ignorable="d"
+        Title="SATO TCP Client" Height="500" Width="950" Loaded="Window_Loaded" Icon="Images/1.png" WindowStartupLocation="CenterScreen" Closing="Window_Closing">
+    <Grid Background="#FF313131">
+        <WrapPanel x:Name="btnStackPanel" Orientation="Horizontal">
+            <Button x:Name="btnConnectStation0" Content="Connect_0" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="144" ToolTip="Connect to PLC socket server" Height="27" Click="BtnConnect_Click" />
+            <Button x:Name="btnConnectStation1" Content="Connect_1" HorizontalAlignment="Left" Margin="10,10,0,0" Visibility="Visible" VerticalAlignment="Top" Width="144" ToolTip="Connect to PLC socket server" Height="27" Click="BtnConnect_Click" />
+            <Button x:Name="btnConnectStation2" Content="Connect_2" HorizontalAlignment="Left" Margin="10,10,0,0" Visibility="Visible" VerticalAlignment="Top" Width="144" ToolTip="Connect to PLC socket server" Height="27" Click="BtnConnect_Click" />
+           
+           
+        </WrapPanel>
+        <DataGrid x:Name="dg" HorizontalAlignment="Stretch" Margin="10,50,10,27" CanUserResizeRows="False" CanUserAddRows="False"  AutoGenerateColumns="False" IsReadOnly="True" CanUserResizeColumns="True" Background="{x:Null}" VerticalAlignment="Stretch" CanUserSortColumns="False">
+            <DataGrid.Columns>
+                <DataGridTextColumn Binding="{Binding IPAdressPortString}" Header="IpPort" Width="140"/>
+                <DataGridTextColumn Binding="{Binding StationNo}" Header="Stn" Width="35"/>
+                <DataGridTextColumn Binding="{Binding Status}" Header="Status" Width="130"/>
+                <DataGridTextColumn Binding="{Binding ReceiveMessage}" Header="ReceiveMessage" Width="*"/>
+                <DataGridTextColumn Binding="{Binding SendMessage}" Header="SendMessage" Width="*"/>
+            </DataGrid.Columns>
+        </DataGrid>
+        <StackPanel x:Name="LabelStackPanel" VerticalAlignment="Bottom">
+            <Label x:Name="lblMessage" Content="{Binding Message}" HorizontalAlignment="Stretch" Margin="2,0" VerticalAlignment="Bottom" Background="#FF871A7D" FontWeight="Bold"/>
+        </StackPanel>
+    </Grid>
+</Window>

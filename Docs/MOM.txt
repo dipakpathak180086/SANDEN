@@ -1,0 +1,15 @@
+Dear Naveen San,
+Following up on our last meeting, we have addressed the comments on the MOM points as follows:
+According to the 2nd MOM sheet:
+Point 1: This is not feasible from our side.
+Points 2 and 3: These are related to report points, and we will implement them accordingly.
+Point 4: As per Sulekh San, he will check with the vendor.
+Point 5: We will display all current messages and update them based on your feedback.
+Point 6: Regarding the rework option, we will check and add password protection.
+Point 7: This is an additional point and will require modification charges.
+According to the 1st MOM sheet:
+Training Point: Once all development is complete and UAT is signed off, we will arrange the training session.
+Note: For any future issues or bugs, we will provide support for a limited period.
+Kindly confirm so that we can proceed with development and share the timeline accordingly.
+Thanks,
+Dipak Pathak
