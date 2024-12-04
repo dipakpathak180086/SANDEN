@@ -152,260 +152,83 @@ namespace SANDEN_PC_APP
                 xlWorkSheet.Rows.Font.Name = "Arial";
                 xlWorkSheet.Rows.Font.Bold = true;
                 xlWorkSheet.Rows.Cells.HorizontalAlignment = Excel.XlHAlign.xlHAlignCenter;
-                //xlApp.StandardFontSize = 10;
 
-                xlWorkSheet.Cells[2, 4] = "Customer:-";
-                xlWorkSheet.Cells[2, 5] = "Mahindra";
-                xlWorkSheet.Cells[5, 2] = "Housing QR Code";
+                //string imagePath = @"Resources\SANDENLOGO.jpg"; // Set the path to your logo image
+                //Excel.Pictures pictures = (Excel.Pictures)xlWorkSheet.Pictures(misValue);
+                //Excel.Picture logo = pictures.Insert(Application.StartupPath + "\\" + imagePath);
+                //// Set the position and size for the logo
+                //logo.Left = 5;    // Position from the left edge (top-left corner)
+                //logo.Top = 5;     // Position from the top edge (top-left corner)
+                //logo.Width = 50;  // Set the desired width (small size)
+                //logo.Height = 50; // Set the desired height (small size)
+                ////xlApp.StandardFontSize = 10;
+
+                xlWorkSheet.Cells[2, 4] = "Company:-";
+                xlWorkSheet.Cells[2, 5] = "SAVL";
+                xlWorkSheet.Cells[5, 2] = "QR Code";
 
                 //Station No -01
-                xlWorkSheet.Cells[4, 6] = "Ø12 Cup Gluing & Pressing";
-                xlWorkSheet.get_Range("F4", "O4").Merge(true);
+                xlWorkSheet.Cells[4, 6] = "Machine-01 (Screw Tightening)";
+                xlWorkSheet.get_Range("F4", "Z4").Merge(true);
                 xlWorkSheet.Cells[5, 6] = "Date and Time";
-                xlWorkSheet.Cells[5, 7] = "Ø12 Cup pkt BOP.";
-                xlWorkSheet.Cells[5, 8] = "Air Pressure";
-                xlWorkSheet.get_Range("H5", "J5").Merge(true);
-                xlWorkSheet.Cells[6, 8] = "Min";
-                xlWorkSheet.Cells[6, 9] = "Max";
-                xlWorkSheet.Cells[6, 10] = "Actual";
-                xlWorkSheet.Cells[5, 11] = "Interference Load";
-                xlWorkSheet.get_Range("K5", "M5").Merge(true);
-                xlWorkSheet.Cells[6, 11] = "Min";
-                xlWorkSheet.Cells[6, 12] = "Max";
-                xlWorkSheet.Cells[6, 13] = "Actual";
-                xlWorkSheet.Cells[5, 14] = "Gluing Confirmation";
-                xlWorkSheet.Cells[5, 15] = "Result";
+                xlWorkSheet.Cells[5, 7] = "TORQUE DATA";
+                xlWorkSheet.get_Range("G5", "Z5").Merge(true);
+                xlWorkSheet.Cells[6, 7] = "SCREW_1 TORQUE";
+                xlWorkSheet.Cells[6, 8] = "SCREW_1 RESULT";
+                xlWorkSheet.Cells[6, 9] = "SCREW_2 TORQUE";
+                xlWorkSheet.Cells[6, 10] = "SCREW_2 RESULT";
+                xlWorkSheet.Cells[6, 11] = "SCREW_3 TORQUE";
+                xlWorkSheet.Cells[6, 12] = "SCREW_3 RESULT";
+                xlWorkSheet.Cells[6, 13] = "SCREW_4 TORQUE";
+                xlWorkSheet.Cells[6, 14] = "SCREW_4 RESULT";
+                xlWorkSheet.Cells[6, 15] = "SCREW_5 TORQUE";
+                xlWorkSheet.Cells[6, 16] = "SCREW_5 RESULT";
+                xlWorkSheet.Cells[6, 17] = "SCREW_6 TORQUE";
+                xlWorkSheet.Cells[6, 18] = "SCREW_6 RESULT";
+                xlWorkSheet.Cells[6, 19] = "SCREW_7 TORQUE";
+                xlWorkSheet.Cells[6, 20] = "SCREW_7 RESULT";
+                xlWorkSheet.Cells[6, 21] = "SCREW_8 TORQUE";
+                xlWorkSheet.Cells[6, 22] = "SCREW_8 RESULT";
+                xlWorkSheet.Cells[6, 23] = "SCREW_9 TORQUE";
+                xlWorkSheet.Cells[6, 24] = "SCREW_9 RESULT";
+                xlWorkSheet.Cells[6, 25] = "SCREW_10 TORQUE";
+                xlWorkSheet.Cells[6, 26] = "SCREW_10 RESULT";
+                //xlWorkSheet.get_Range("K5", "M5").Merge(true);
+                //xlWorkSheet.Cells[5, 9] = "Result";
 
 
                 //Station No -02
-                xlWorkSheet.Cells[4, 16] = "Ø26 Cup Gluing & Pressing";
-                xlWorkSheet.get_Range("P4", "Y4").Merge(true);
-                xlWorkSheet.Cells[5, 16] = "Date and Time";
-                xlWorkSheet.Cells[5, 17] = "BOP. of  pkt Ø26 Cup";
-                xlWorkSheet.Cells[5, 18] = "Air Pressure";
-                xlWorkSheet.get_Range("R5", "T5").Merge(true);
-                xlWorkSheet.Cells[6, 18] = "Min";
-                xlWorkSheet.Cells[6, 19] = "Max";
-                xlWorkSheet.Cells[6, 20] = "Actual";
-                xlWorkSheet.Cells[5, 21] = "Interference Load";
-                xlWorkSheet.get_Range("U5", "W5").Merge(true);
-                xlWorkSheet.Cells[6, 21] = "Min";
-                xlWorkSheet.Cells[6, 22] = "Max";
-                xlWorkSheet.Cells[6, 23] = "Actual";
-                xlWorkSheet.Cells[5, 24] = "Gluing Confirmation";
-                xlWorkSheet.Cells[5, 25] = "Result";
+                xlWorkSheet.Cells[4, 27] = "Machine 02 (Leak Testing)";
+                xlWorkSheet.get_Range("AA4", "AC4").Merge(true);
+                xlWorkSheet.Cells[5, 27] = "Date and Time";
+                xlWorkSheet.Cells[5, 28] = "LEAKAGE TESTING";
+                xlWorkSheet.get_Range("AB5", "AC5").Merge(true);
+                xlWorkSheet.Cells[6, 28] = "LEAKAGE_VALUE";
+                xlWorkSheet.Cells[6, 29] = "RESULT";
+                // xlWorkSheet.get_Range("U5", "W5").Merge(true);
+                // xlWorkSheet.Cells[5, 13] = "Result";
 
 
                 //Station No -03
-                xlWorkSheet.Cells[4, 26] = "Dowell Pressing";
-                xlWorkSheet.get_Range("Z4", "AH4").Merge(true);
-                xlWorkSheet.Cells[5, 26] = "Date and Time";
-                xlWorkSheet.Cells[5, 27] = "Dowel*2 pkt BOP.";
-                xlWorkSheet.Cells[5, 28] = "Air Pressure";
-                xlWorkSheet.get_Range("AB5", "AD5").Merge(true);
-                xlWorkSheet.Cells[6, 28] = "Min";
-                xlWorkSheet.Cells[6, 29] = "Max";
-                xlWorkSheet.Cells[6, 30] = "Actual";
-                xlWorkSheet.Cells[5, 31] = "Interference Load";
-                xlWorkSheet.get_Range("AE5", "AG5").Merge(true);
-                xlWorkSheet.Cells[6, 31] = "Min";
-                xlWorkSheet.Cells[6, 32] = "Max";
-                xlWorkSheet.Cells[6, 33] = "Actual";
-                xlWorkSheet.Cells[5, 34] = "Result";
+                xlWorkSheet.Cells[4, 30] = "Machine 03 (IL Testing)";
+                xlWorkSheet.get_Range("AD4", "AE4").Merge(true);
+                xlWorkSheet.Cells[5, 30] = "Date and Time";
+                xlWorkSheet.Cells[5, 31] = "IL Resistance";
+               // xlWorkSheet.get_Range("O5", "Q5").Merge(true);
+                xlWorkSheet.Cells[6, 31] = "IL M-Ω";
+                //xlWorkSheet.get_Range("AE5", "AG5").Merge(true);
+                //xlWorkSheet.Cells[5, 17] = "Result";
 
-                //Station No -04
-                xlWorkSheet.Cells[4, 35] = "Anti-Drain Pressing";
-                xlWorkSheet.get_Range("AI4", "AP4").Merge(true);
-                xlWorkSheet.Cells[5, 35] = "Date and Time";
-                xlWorkSheet.Cells[5, 36] = "Air Pressure";
-                xlWorkSheet.get_Range("AJ5", "AL5").Merge(true);
-                xlWorkSheet.Cells[6, 36] = "Min";
-                xlWorkSheet.Cells[6, 37] = "Max";
-                xlWorkSheet.Cells[6, 38] = "Actual";
-                xlWorkSheet.Cells[5, 39] = "Interference Load";
-                xlWorkSheet.get_Range("AM5", "AO5").Merge(true);
-                xlWorkSheet.Cells[6, 39] = "Min";
-                xlWorkSheet.Cells[6, 40] = "Max";
-                xlWorkSheet.Cells[6, 41] = "Actual";
-                xlWorkSheet.Cells[5, 42] = "Result";
-
-
-                ////Station No -05
-                xlWorkSheet.Cells[4, 43] = "O ring/Element Oiling & Checking And Big Cap Tightening";
-                xlWorkSheet.get_Range("AQ4", "BD4").Merge(true);
-                xlWorkSheet.Cells[5, 43] = "Date and Time";
-                xlWorkSheet.Cells[5, 44] = "BOP. of Big Cap";
-                xlWorkSheet.Cells[5, 45] = "Air Pressure";
-                xlWorkSheet.get_Range("AS5", "AU5").Merge(true);
-                xlWorkSheet.Cells[6, 45] = "Min";
-                xlWorkSheet.Cells[6, 46] = "Max";
-                xlWorkSheet.Cells[6, 47] = "Actual";
-
-                xlWorkSheet.Cells[5, 48] = "Presence of Cap Oring";
-                xlWorkSheet.Cells[5, 49] = "Presence of Element Oring-1";
-                xlWorkSheet.Cells[5, 50] = "Presence of Element Oring-2";
-                xlWorkSheet.Cells[5, 51] = "Presence of Bypass Valve";
-                xlWorkSheet.Cells[5, 52] = "Element  & Cap Oiling Confirmation";
-                xlWorkSheet.Cells[5, 53] = "Tightening Torque";
-                xlWorkSheet.get_Range("BA5", "BC5").Merge(true);
-                xlWorkSheet.Cells[6, 53] = "Min";
-                xlWorkSheet.Cells[6, 54] = "Max";
-                xlWorkSheet.Cells[6, 55] = "Actual";
-
-                xlWorkSheet.Cells[5, 56] = "Result";
-
-
-
-                ////Station No -06
-                xlWorkSheet.Cells[4, 57] = " Gasket Installation & Screw Feeding";
-                xlWorkSheet.get_Range("BE4", "BP4").Merge(true);
-                xlWorkSheet.Cells[5, 57] = "Date and Time";
-
-                //******Commented by dipak 10_10_20 for bop issue
-                //xlWorkSheet.Cells[6, 58] = "BOP. pkt  M6*1.25 Screw"; //Interchange 02_Aug_20
-                //xlWorkSheet.Cells[6, 59] = "BOP. pkt Gasket-1";
-                //xlWorkSheet.Cells[6, 60] = "BOP. pkt Gasket-2";
-                //xlWorkSheet.Cells[6, 61] = "BOP. pkt Gasket-3";
-                //xlWorkSheet.Cells[6, 62] = "BOP. pkt Gasket-4";
-                //xlWorkSheet.Cells[6, 63] = "BOP. pkt Cooler";//Interchange 02_Aug_20
-
-
-                xlWorkSheet.Cells[6, 58] = "BOP. pkt Gasket-1"; //Interchange 02_Aug_20
-                xlWorkSheet.Cells[6, 59] = "BOP. pkt Gasket-2";
-                xlWorkSheet.Cells[6, 60] = "BOP. pkt Gasket-3";
-                xlWorkSheet.Cells[6, 61] = "BOP. pkt Gasket-4";
-                xlWorkSheet.Cells[6, 62] = "BOP. pkt Cooler";
-                xlWorkSheet.Cells[6, 63] = "BOP. pkt  M6*1.25 Screw";//Interchange 02_Aug_20
-
-                xlWorkSheet.Cells[5, 64] = "Air Pressure";
-                xlWorkSheet.get_Range("BL5", "BN5").Merge(true);
-                xlWorkSheet.Cells[6, 64] = "Min";
-                xlWorkSheet.Cells[6, 65] = "Max";
-                xlWorkSheet.Cells[6, 66] = "Actual";
-
-                xlWorkSheet.Cells[5, 67] = "All gasket present status by CAMERA";
-
-                xlWorkSheet.Cells[5, 68] = "Result";
-
-                ////Station No -07
-                xlWorkSheet.Cells[4, 69] = "Cooler Pre Tightening";
-                xlWorkSheet.get_Range("BQ4", "BV4").Merge(true);
-                xlWorkSheet.Cells[5, 69] = "Date and Time";
-
-                xlWorkSheet.Cells[5, 70] = "Air Pressure";
-                xlWorkSheet.get_Range("BR5", "BT5").Merge(true);
-                xlWorkSheet.Cells[6, 70] = "Min";
-                xlWorkSheet.Cells[6, 71] = "Max";
-                xlWorkSheet.Cells[6, 72] = "Actual";
-
-                xlWorkSheet.Cells[5, 73] = "Screw Count(Nos)";
-
-                xlWorkSheet.Cells[5, 74] = "Result";
-
-                ////Station No -08
-                xlWorkSheet.Cells[4, 75] = "Heat Exchanger Final Tightening";
-                xlWorkSheet.get_Range("BW4", "CS4").Merge(true);
-                xlWorkSheet.Cells[5, 75] = "Date and Time";
-
-                xlWorkSheet.Cells[5, 76] = "Air Pressure";
-                xlWorkSheet.get_Range("BX5", "BZ5").Merge(true);
-                xlWorkSheet.Cells[6, 76] = "Min";
-                xlWorkSheet.Cells[6, 77] = "Max";
-                xlWorkSheet.Cells[6, 78] = "Actual";
-
-                xlWorkSheet.Cells[5, 79] = "Tightening Torque Screw 1";
-                xlWorkSheet.get_Range("CA5", "CC5").Merge(true);
-                xlWorkSheet.Cells[6, 79] = "Min";
-                xlWorkSheet.Cells[6, 80] = "Max";
-                xlWorkSheet.Cells[6, 81] = "Actual";
-
-                xlWorkSheet.Cells[5, 82] = "Tightening Torque Screw 2";
-                xlWorkSheet.get_Range("CD5", "CF5").Merge(true);
-                xlWorkSheet.Cells[6, 82] = "Min";
-                xlWorkSheet.Cells[6, 83] = "Max";
-                xlWorkSheet.Cells[6, 84] = "Actual";
-
-                xlWorkSheet.Cells[5, 85] = "Tightening Torque Screw 3";
-                xlWorkSheet.get_Range("CG5", "CI5").Merge(true);
-                xlWorkSheet.Cells[6, 85] = "Min";
-                xlWorkSheet.Cells[6, 86] = "Max";
-                xlWorkSheet.Cells[6, 87] = "Actual";
-
-                xlWorkSheet.Cells[5, 88] = "Tightening Torque Screw 4";
-                xlWorkSheet.get_Range("CJ5", "CL5").Merge(true);
-                xlWorkSheet.Cells[6, 88] = "Min";
-                xlWorkSheet.Cells[6, 89] = "Max";
-                xlWorkSheet.Cells[6, 90] = "Actual";
-
-                xlWorkSheet.Cells[5, 91] = "Tightening Torque Screw 5";
-                xlWorkSheet.get_Range("CM5", "CO5").Merge(true);
-                xlWorkSheet.Cells[6, 91] = "Min";
-                xlWorkSheet.Cells[6, 92] = "Max";
-                xlWorkSheet.Cells[6, 93] = "Actual";
-
-                xlWorkSheet.Cells[5, 94] = "Tightening Torque Screw 6";
-                xlWorkSheet.get_Range("CP5", "CR5").Merge(true);
-                xlWorkSheet.Cells[6, 94] = "Min";
-                xlWorkSheet.Cells[6, 95] = "Max";
-                xlWorkSheet.Cells[6, 96] = "Actual";
-
-                xlWorkSheet.Cells[5, 97] = "Result";
-
-                ////Station No -09
-                xlWorkSheet.Cells[4, 98] = "Anti drain leak testing";
-                xlWorkSheet.get_Range("CT4", "DD4").Merge(true);
-                xlWorkSheet.Cells[5, 98] = "Date and Time";
-
-                xlWorkSheet.Cells[6, 99] = "BOP. Gasket Clean/Dirty Oil";
-                xlWorkSheet.Cells[6, 100] = "BOP. Gasket Oil Drain Out";
-                xlWorkSheet.Cells[6, 101] = "BOP. Gasket Coolent Outlet";
-
-                xlWorkSheet.Cells[5, 102] = "Test Pressure";
-                xlWorkSheet.get_Range("CX5", "CZ5").Merge(true);
-                xlWorkSheet.Cells[6, 102] = "Min";
-                xlWorkSheet.Cells[6, 103] = "Max";
-                xlWorkSheet.Cells[6, 104] = "Actual";
-
-                xlWorkSheet.Cells[5, 105] = "Leak Flow Rate";
-                xlWorkSheet.get_Range("DA5", "DC5").Merge(true);
-                xlWorkSheet.Cells[6, 105] = "Min";
-                xlWorkSheet.Cells[6, 106] = "Max";
-                xlWorkSheet.Cells[6, 107] = "Actual";
-
-                //xlWorkSheet.Cells[5, 108] = "Main Line Pressure";
-                //xlWorkSheet.get_Range("DD5", "DF5").Merge(true);
-                //xlWorkSheet.Cells[6, 108] = "Min";
-                //xlWorkSheet.Cells[6, 109] = "Max";
-                //xlWorkSheet.Cells[6, 110] = "Actual";
-
-                xlWorkSheet.Cells[5, 108] = "Result";
-
-                ////Station No -10
-                xlWorkSheet.Cells[4, 109] = "Dry leak testing";
-                xlWorkSheet.get_Range("DE4", "DO4").Merge(true);
-                xlWorkSheet.Cells[5, 109] = "Date and Time";
-
-                xlWorkSheet.Cells[5, 110] = "Water Pressure (kpa)";
-                xlWorkSheet.Cells[5, 111] = "Water Leakage (cm/mm)";
-                xlWorkSheet.Cells[5, 112] = "Service Pressure (kap)";
-                xlWorkSheet.Cells[5, 113] = "Service Leakage (cm/mm)";
-                xlWorkSheet.Cells[5, 114] = "Oil Pressure (kpa)";
-                xlWorkSheet.Cells[5, 115] = "Module/Chamber Pressure   (kpa)";
-                xlWorkSheet.Cells[5, 116] = "Oil Leakage   (cm/mm)";
-                xlWorkSheet.Cells[5, 117] = "Service Flow  (mm/cm)";
-                xlWorkSheet.Cells[5, 118] = "Lasser Code";
-
-                xlWorkSheet.Cells[5, 119] = "Result";
 
 
                 ////Station No -11
-                xlWorkSheet.Cells[4, 120] = "Final Inspection";
-                xlWorkSheet.get_Range("DP4", "DR4").Merge(true);
-                xlWorkSheet.Cells[5, 120] = "Date and Time";
+                xlWorkSheet.Cells[4, 32] = "Final Inspection";
+                xlWorkSheet.get_Range("AF4", "AH4").Merge(true);
+                xlWorkSheet.Cells[5, 32] = "Date and Time";
 
-                xlWorkSheet.Cells[5, 121] = "Final 2D Data matrix Code";
+                xlWorkSheet.Cells[5, 33] = "Final Inspection";
 
-                xlWorkSheet.Cells[5, 122] = "Result";
+                xlWorkSheet.Cells[5, 34] = "Result";
 
 
                 xlWorkSheet.Cells[6, 1] = "Sr No.";
@@ -423,7 +246,7 @@ namespace SANDEN_PC_APP
                 //xlWorkSheet.get_Range("F4", "BD4").Cells.Borders.Weight = Excel.XlBorderWeight.xlThin;
                 //xlWorkSheet.get_Range("F4", "O4").Cells.HorizontalAlignment = Excel.XlHAlign.xlHAlignCenter;
                 int counter = 0;
-               
+
                 string[] aParamArr = null;
                 string sBarcode = "";
                 bool b6Child = false;
@@ -452,91 +275,49 @@ namespace SANDEN_PC_APP
                         //Machine_Status, "7"
                         //Child_Barcode,  "8"
                         //Created_On      "9"
-                        if (dgv.Rows[i].Cells[4].Value.ToString() == "00")
+                        //if (dgv.Rows[i].Cells[4].Value.ToString() == "00")
+                        //{
+                        //    continue;
+                        //}
+                        if (sBarcode != dgv.Rows[i].Cells[5].Value.ToString())
                         {
                             continue;
                         }
-                        if (sBarcode != dgv.Rows[i].Cells[3].Value.ToString())
-                        {
-                            continue;
-                        }
-                        if (sBarcode != dgv.Rows[i].Cells[3].Value.ToString())
+                        if (sBarcode != dgv.Rows[i].Cells[5].Value.ToString())
                         {
                             goto OuterLoop;
                         }
 
 
+                        if (dgv.Rows[i].Cells[4].Value.ToString() == "00")
+                        {
+                            int len = dgv.Rows[i].Cells[7].Value.ToString().Split(';').Length;
+                            aParamArr = new string[20];
+                            aParamArr = dgv.Rows[i].Cells[7].Value.ToString().Split(';'); //Parameter
+                        }
                         if (dgv.Rows[i].Cells[4].Value.ToString() == "01")
                         {
-                            int len = dgv.Rows[i].Cells[6].Value.ToString().Split(';').Length;
-                            aParamArr = new string[9];
-                            aParamArr = dgv.Rows[i].Cells[6].Value.ToString().Split(';'); //Parameter
+                            int len = dgv.Rows[i].Cells[7].Value.ToString().Split(';').Length;
+                            aParamArr = new string[2];
+                            aParamArr = dgv.Rows[i].Cells[7].Value.ToString().Split(';'); //Parameter
                         }
                         if (dgv.Rows[i].Cells[4].Value.ToString() == "02")
                         {
-                            int len = dgv.Rows[i].Cells[6].Value.ToString().Split(';').Length;
-                            aParamArr = new string[9];
-                            aParamArr = dgv.Rows[i].Cells[6].Value.ToString().Split(';'); //Parameter
+                            int len = dgv.Rows[i].Cells[7].Value.ToString().Split(';').Length;
+                            aParamArr = new string[1];
+                            aParamArr = dgv.Rows[i].Cells[7].Value.ToString().Split(';'); //Parameter
                         }
-                        if (dgv.Rows[i].Cells[4].Value.ToString() == "03")
-                        {
-                            int len = dgv.Rows[i].Cells[6].Value.ToString().Split(';').Length;
-                            aParamArr = new string[8];
-                            aParamArr = dgv.Rows[i].Cells[6].Value.ToString().Split(';'); //Parameter
-                        }
-                        if (dgv.Rows[i].Cells[4].Value.ToString() == "04")
-                        {
-                            int len = dgv.Rows[i].Cells[6].Value.ToString().Split(';').Length;
-                            aParamArr = new string[8];
-                            aParamArr = dgv.Rows[i].Cells[6].Value.ToString().Split(';'); //Parameter
-                        }
-                        if (dgv.Rows[i].Cells[4].Value.ToString() == "05")
-                        {
-                            int len = dgv.Rows[i].Cells[6].Value.ToString().Split(';').Length;
-                            aParamArr = new string[11];
-                            aParamArr = dgv.Rows[i].Cells[6].Value.ToString().Split(';'); //Parameter
-                        }
-                        if (dgv.Rows[i].Cells[4].Value.ToString() == "06")
-                        {
-                            int len = dgv.Rows[i].Cells[6].Value.ToString().Split(';').Length;
-                            aParamArr = new string[4];
-                            aParamArr = dgv.Rows[i].Cells[6].Value.ToString().Split(';'); //Parameter
-                        }
-                        if (dgv.Rows[i].Cells[4].Value.ToString() == "07")
-                        {
-                            int len = dgv.Rows[i].Cells[6].Value.ToString().Split(';').Length;
-                            aParamArr = new string[4];
-                            aParamArr = dgv.Rows[i].Cells[6].Value.ToString().Split(';'); //Parameter
-                        }
-                        if (dgv.Rows[i].Cells[4].Value.ToString() == "08")
-                        {
-                            int len = dgv.Rows[i].Cells[6].Value.ToString().Split(';').Length;
-                            aParamArr = new string[21];
-                            aParamArr = dgv.Rows[i].Cells[6].Value.ToString().Split(';'); //Parameter
-                        }
-                        if (dgv.Rows[i].Cells[4].Value.ToString() == "09")
-                        {
-                            int len = dgv.Rows[i].Cells[6].Value.ToString().Split(';').Length;
-                            aParamArr = new string[9];
-                            aParamArr = dgv.Rows[i].Cells[6].Value.ToString().Split(';'); //Parameter
-                        }
-                        if (dgv.Rows[i].Cells[4].Value.ToString() == "10")
-                        {
-                            int len = dgv.Rows[i].Cells[6].Value.ToString().Split(';').Length;
-                            aParamArr = new string[9];
-                            aParamArr = dgv.Rows[i].Cells[6].Value.ToString().Split(';'); //Parameter
-                        }
+
                         xlWorkSheet.Cells[iBarcode + 7, 1] = counter;//Sr_No
-                        xlWorkSheet.Cells[iBarcode + 7, 2] = dgv.Rows[i].Cells[3].Value.ToString().Trim();//Parent QR Code
-                        xlWorkSheet.Cells[iBarcode + 7, 3] = dgv.Rows[i].Cells[0].Value.ToString(); //Model No
-                        xlWorkSheet.Cells[iBarcode + 7, 4] = dgv.Rows[i].Cells[1].Value.ToString(); //FG_Part No
-                        xlWorkSheet.Cells[iBarcode + 7, 5] = dgv.Rows[i].Cells[2].Value.ToString();  //Cust Part No
-                        if (dgv.Rows[i].Cells[4].Value.ToString() == "01")
+                        xlWorkSheet.Cells[iBarcode + 7, 2] = dgv.Rows[i].Cells[5].Value.ToString().Trim();//Parent QR Code
+                        xlWorkSheet.Cells[iBarcode + 7, 3] = dgv.Rows[i].Cells[1].Value.ToString(); //Model No
+                        xlWorkSheet.Cells[iBarcode + 7, 4] = dgv.Rows[i].Cells[2].Value.ToString(); //FG_Part No
+                        xlWorkSheet.Cells[iBarcode + 7, 5] = dgv.Rows[i].Cells[3].Value.ToString();  //Cust Part No
+                        if (dgv.Rows[i].Cells[4].Value.ToString() == "00")
                         {
 
                             #region  Staion-01
-                            xlWorkSheet.Cells[iBarcode + 7, 6] = dgv.Rows[i].Cells[9].Value.ToString();  //Date Time
-                            xlWorkSheet.Cells[iBarcode + 7, 7] = dgv.Rows[i].Cells[8].Value.ToString();  //Child Barcode
+                            xlWorkSheet.Cells[iBarcode + 7, 6] = dgv.Rows[i].Cells[8].Value.ToString();  //Date Time
                             for (int j = 0; j < aParamArr.Length; j++)
                             {
 
@@ -544,578 +325,152 @@ namespace SANDEN_PC_APP
                                 {
                                     if (char.IsNumber(aParamArr[j].Trim().ToString(), 0) && aParamArr[j].Trim() != "")
                                     {
-                                        xlWorkSheet.Cells[iBarcode + 7, 8] = Convert.ToString((Convert.ToDecimal(aParamArr[j].Trim()) * 1) / 100);
+                                        xlWorkSheet.Cells[iBarcode + 7, 7] = Convert.ToString(aParamArr[j].Trim());
+                                        
                                     }
 
                                 }
                                 if (j == 1)
                                 {
-                                    if (char.IsNumber(aParamArr[j].ToString().Trim(), 0) && aParamArr[j].Trim() != "")
+                                    if (char.IsLetter(aParamArr[j].ToString().Trim(), 0) && aParamArr[j].Trim() != "")
                                     {
-                                        xlWorkSheet.Cells[iBarcode + 7, 9] = Convert.ToString((Convert.ToDecimal(aParamArr[j].Trim()) * 1) / 100);
+                                        xlWorkSheet.Cells[iBarcode + 7, 8] = Convert.ToString(aParamArr[j].Trim());
                                     }
                                 }
                                 if (j == 2)
                                 {
                                     if (char.IsNumber(aParamArr[j].ToString().Trim(), 0) && aParamArr[j].Trim() != "")
                                     {
-                                        xlWorkSheet.Cells[iBarcode + 7, 10] = Convert.ToString((Convert.ToDecimal(aParamArr[j].Trim()) * 1) / 100);
+                                        xlWorkSheet.Cells[iBarcode + 7, 9] = Convert.ToString(aParamArr[j].Trim());
                                     }
                                 }
                                 if (j == 3)
                                 {
-                                    xlWorkSheet.Cells[iBarcode + 7, 11] = aParamArr[j].Trim();
-                                }
-                                if (j == 4)
-                                {
-                                    xlWorkSheet.Cells[iBarcode + 7, 12] = aParamArr[j].Trim();
-                                }
-                                if (j == 5)
-                                {
-                                    xlWorkSheet.Cells[iBarcode + 7, 13] = aParamArr[j].Trim();
-                                }
-                                if (j == 8)
-                                {
-                                    xlWorkSheet.Cells[iBarcode + 7, 14] = aParamArr[j].Trim();
-                                }
-                            }
-                            xlWorkSheet.Cells[iBarcode + 7, 15] = dgv.Rows[i].Cells[7].Value.ToString();  //Result
-                            #endregion
-                        }
-                        if (dgv.Rows[i].Cells[4].Value.ToString() == "02")
-                        {
-                            #region  Staion-02
-                            xlWorkSheet.Cells[iBarcode + 7, 16] = dgv.Rows[i].Cells[9].Value.ToString();  //Date Time
-                            xlWorkSheet.Cells[iBarcode + 7, 17] = dgv.Rows[i].Cells[8].Value.ToString();  //Child Barcode
-                            for (int j = 0; j < aParamArr.Length; j++)
-                            {
-
-                                if (j == 0)
-                                {
-                                    if (char.IsNumber(aParamArr[j].ToString().Trim(), 0) && aParamArr[j].Trim() != "")
+                                    if (char.IsLetter(aParamArr[j].ToString().Trim(), 0) && aParamArr[j].Trim() != "")
                                     {
-                                        xlWorkSheet.Cells[iBarcode + 7, 18] = Convert.ToString((Convert.ToDecimal(aParamArr[j].Trim()) * 1) / 100);
+                                        xlWorkSheet.Cells[iBarcode + 7, 10] = Convert.ToString(aParamArr[j].Trim());
                                     }
-
-                                }
-                                if (j == 1)
-                                {
-                                    if (char.IsNumber(aParamArr[j].ToString().Trim(), 0) && aParamArr[j].Trim() != "")
-                                    {
-                                        xlWorkSheet.Cells[iBarcode + 7, 19] = Convert.ToString((Convert.ToDecimal(aParamArr[j].Trim()) * 1) / 100);
-                                    }
-                                }
-                                if (j == 2)
-                                {
-                                    if (char.IsNumber(aParamArr[j].ToString().Trim(), 0) && aParamArr[j].Trim() != "")
-                                    {
-                                        xlWorkSheet.Cells[iBarcode + 7, 20] = Convert.ToString((Convert.ToDecimal(aParamArr[j].Trim()) * 1) / 100);
-                                    }
-                                }
-                                if (j == 3)
-                                {
-                                    xlWorkSheet.Cells[iBarcode + 7, 21] = aParamArr[j].Trim();
-                                }
-                                if (j == 4)
-                                {
-                                    xlWorkSheet.Cells[iBarcode + 7, 22] = aParamArr[j].Trim();
-                                }
-                                if (j == 5)
-                                {
-                                    xlWorkSheet.Cells[iBarcode + 7, 23] = aParamArr[j].Trim();
-                                }
-                                if (j == 8)
-                                {
-                                    xlWorkSheet.Cells[iBarcode + 7, 24] = aParamArr[j].Trim();
-                                }
-                            }
-                            xlWorkSheet.Cells[iBarcode + 7, 25] = dgv.Rows[i].Cells[7].Value.ToString();  //Result
-                            #endregion
-                        }
-                        if (dgv.Rows[i].Cells[4].Value.ToString() == "03")
-                        {
-                            #region  Staion-03
-                            xlWorkSheet.Cells[iBarcode + 7, 26] = dgv.Rows[i].Cells[9].Value.ToString();  //Date Time
-                            xlWorkSheet.Cells[iBarcode + 7, 27] = dgv.Rows[i].Cells[8].Value.ToString();  //Child Barcode
-                            for (int j = 0; j < aParamArr.Length; j++)
-                            {
-
-                                if (j == 0)
-                                {
-                                    if (char.IsNumber(aParamArr[j].ToString().Trim(), 0) && aParamArr[j].Trim() != "")
-                                    {
-                                        xlWorkSheet.Cells[iBarcode + 7, 28] = Convert.ToString((Convert.ToDecimal(aParamArr[j].Trim()) * 1) / 100);
-                                    }
-
-                                }
-                                if (j == 1)
-                                {
-                                    if (char.IsNumber(aParamArr[j].ToString().Trim(), 0) && aParamArr[j].Trim() != "")
-                                    {
-                                        xlWorkSheet.Cells[iBarcode + 7, 29] = Convert.ToString((Convert.ToDecimal(aParamArr[j].Trim()) * 1) / 100);
-                                    }
-                                }
-                                if (j == 2)
-                                {
-                                    if (char.IsNumber(aParamArr[j].ToString().Trim(), 0) && aParamArr[j].Trim() != "")
-                                    {
-                                        xlWorkSheet.Cells[iBarcode + 7, 30] = Convert.ToString((Convert.ToDecimal(aParamArr[j].Trim()) * 1) / 100);
-                                    }
-                                }
-                                if (j == 3)
-                                {
-                                    xlWorkSheet.Cells[iBarcode + 7, 31] = aParamArr[j].Trim();
-                                }
-                                if (j == 4)
-                                {
-                                    xlWorkSheet.Cells[iBarcode + 7, 32] = aParamArr[j].Trim();
-                                }
-                                if (j == 5)
-                                {
-                                    xlWorkSheet.Cells[iBarcode + 7, 33] = aParamArr[j].Trim();
-                                }
-
-                            }
-                            xlWorkSheet.Cells[iBarcode + 7, 34] = dgv.Rows[i].Cells[7].Value.ToString();  //Result
-                            #endregion
-                        }
-                        if (dgv.Rows[i].Cells[4].Value.ToString() == "04")
-                        {
-                            #region  Staion-04
-                            xlWorkSheet.Cells[iBarcode + 7, 35] = dgv.Rows[i].Cells[9].Value.ToString();  //Date Time
-                            for (int j = 0; j < aParamArr.Length; j++)
-                            {
-
-                                if (j == 0)
-                                {
-                                    if (char.IsNumber(aParamArr[j].ToString().Trim(), 0) && aParamArr[j].Trim() != "")
-                                    {
-                                        xlWorkSheet.Cells[iBarcode + 7, 36] = Convert.ToString((Convert.ToDecimal(aParamArr[j].Trim()) * 1) / 100);
-                                    }
-
-                                }
-                                if (j == 1)
-                                {
-                                    if (char.IsNumber(aParamArr[j].ToString().Trim(), 0) && aParamArr[j].Trim() != "")
-                                    {
-                                        xlWorkSheet.Cells[iBarcode + 7, 37] = Convert.ToString((Convert.ToDecimal(aParamArr[j].Trim()) * 1) / 100);
-                                    }
-                                }
-                                if (j == 2)
-                                {
-                                    if (char.IsNumber(aParamArr[j].ToString().Trim(), 0) && aParamArr[j].Trim() != "")
-                                    {
-                                        xlWorkSheet.Cells[iBarcode + 7, 38] = Convert.ToString((Convert.ToDecimal(aParamArr[j].Trim()) * 1) / 100);
-                                    }
-                                }
-                                if (j == 3)
-                                {
-                                    xlWorkSheet.Cells[iBarcode + 7, 39] = aParamArr[j].Trim();
-                                }
-                                if (j == 4)
-                                {
-                                    xlWorkSheet.Cells[iBarcode + 7, 40] = aParamArr[j].Trim();
-                                }
-                                if (j == 5)
-                                {
-                                    xlWorkSheet.Cells[iBarcode + 7, 41] = aParamArr[j].Trim();
-                                }
-
-                            }
-                            xlWorkSheet.Cells[iBarcode + 7, 42] = dgv.Rows[i].Cells[7].Value.ToString();  //Result
-                            #endregion
-                        }
-                        if (dgv.Rows[i].Cells[4].Value.ToString() == "05")
-                        {
-                            #region  Staion-05
-                            xlWorkSheet.Cells[iBarcode + 7, 43] = dgv.Rows[i].Cells[9].Value.ToString();  //Date Time
-                            xlWorkSheet.Cells[iBarcode + 7, 44] = dgv.Rows[i].Cells[8].Value.ToString();  //Child Barcode
-                            for (int j = 0; j < aParamArr.Length; j++)
-                            {
-
-                                if (j == 0)
-                                {
-                                    if (char.IsNumber(aParamArr[j].ToString().Trim(), 0) && aParamArr[j].Trim() != "")
-                                    {
-                                        xlWorkSheet.Cells[iBarcode + 7, 45] = Convert.ToString((Convert.ToDecimal(aParamArr[j].Trim()) * 1) / 100);
-                                    }
-
-                                }
-                                if (j == 1)
-                                {
-                                    if (char.IsNumber(aParamArr[j].ToString().Trim(), 0) && aParamArr[j].Trim() != "")
-                                    {
-                                        xlWorkSheet.Cells[iBarcode + 7, 46] = Convert.ToString((Convert.ToDecimal(aParamArr[j].Trim()) * 1) / 100);
-                                    }
-                                }
-                                if (j == 2)
-                                {
-                                    if (char.IsNumber(aParamArr[j].ToString().Trim(), 0) && aParamArr[j].Trim() != "")
-                                    {
-                                        xlWorkSheet.Cells[iBarcode + 7, 47] = Convert.ToString((Convert.ToDecimal(aParamArr[j].Trim()) * 1) / 100);
-                                    }
-                                }
-                                if (j == 3)
-                                {
-                                    xlWorkSheet.Cells[iBarcode + 7, 48] = aParamArr[j].Trim();
-                                }
-                                if (j == 4)
-                                {
-                                    xlWorkSheet.Cells[iBarcode + 7, 49] = aParamArr[j].Trim();
-                                }
-                                if (j == 5)
-                                {
-                                    xlWorkSheet.Cells[iBarcode + 7, 50] = aParamArr[j].Trim();
-                                }
-                                if (j == 6)
-                                {
-                                    xlWorkSheet.Cells[iBarcode + 7, 51] = aParamArr[j].Trim();
-                                }
-                                if (j == 7)
-                                {
-                                    xlWorkSheet.Cells[iBarcode + 7, 52] = aParamArr[j].Trim();
-                                }
-                                if (j == 8)
-                                {
-                                    if (char.IsNumber(aParamArr[j].ToString().Trim(), 0) && aParamArr[j].Trim() != "")
-                                    {
-                                        xlWorkSheet.Cells[iBarcode + 7, 53] = Convert.ToString((Convert.ToDecimal(aParamArr[j].Trim()) * 1) / 10);
-                                    }
-                                }
-                                if (j == 9)
-                                {
-                                    if (char.IsNumber(aParamArr[j].ToString().Trim(), 0) && aParamArr[j].Trim() != "")
-                                    {
-                                        xlWorkSheet.Cells[iBarcode + 7, 54] = Convert.ToString((Convert.ToDecimal(aParamArr[j].Trim()) * 1) / 10);
-                                    }
-                                }
-                                if (j == 10)
-                                {
-                                    if (char.IsNumber(aParamArr[j].ToString().Trim(), 0) && aParamArr[j].Trim() != "")
-                                    {
-                                        xlWorkSheet.Cells[iBarcode + 7, 55] = Convert.ToString((Convert.ToDecimal(aParamArr[j].Trim()) * 1) / 10);
-                                    }
-                                }
-
-                            }
-                            xlWorkSheet.Cells[iBarcode + 7, 56] = dgv.Rows[i].Cells[7].Value.ToString();  //Result
-                            #endregion
-                        }
-                        if (dgv.Rows[i].Cells[4].Value.ToString() == "06")
-                        {
-                            #region  Staion-06
-                            xlWorkSheet.Cells[iBarcode + 7, 57] = dgv.Rows[i].Cells[9].Value.ToString();  //Date Time
-                            if (b6Child == false)
-                            {
-                                int i6ChildCounter = 0;
-                                for (int iChildBarcode = i; iChildBarcode < dg.Rows.Count; iChildBarcode++)
-                                {
-                                    b6Child = true;
-                                    i6ChildCounter = i6ChildCounter + 1;
-                                    if (i6ChildCounter == 1)
-                                    {
-                                        xlWorkSheet.Cells[iBarcode + 7, 58] = dgv.Rows[iChildBarcode].Cells[8].Value.ToString();  //Child Barcode1
-                                    }
-                                    if (i6ChildCounter == 2)
-                                    {
-                                        xlWorkSheet.Cells[iBarcode + 7, 59] = dgv.Rows[iChildBarcode].Cells[8].Value.ToString();  //Child Barcode2
-                                    }
-                                    if (i6ChildCounter == 3)
-                                    {
-                                        xlWorkSheet.Cells[iBarcode + 7, 60] = dgv.Rows[iChildBarcode].Cells[8].Value.ToString();  //Child Barcode3
-                                    }
-                                    if (i6ChildCounter == 4)
-                                    {
-                                        xlWorkSheet.Cells[iBarcode + 7, 61] = dgv.Rows[iChildBarcode].Cells[8].Value.ToString();  //Child Barcode4
-                                    }
-                                    if (i6ChildCounter == 5)
-                                    {
-                                        xlWorkSheet.Cells[iBarcode + 7, 62] = dgv.Rows[iChildBarcode].Cells[8].Value.ToString();  //Child Barcode5
-
-                                    }
-                                    if (i6ChildCounter == 6)
-                                    {
-                                        xlWorkSheet.Cells[iBarcode + 7, 63] = dgv.Rows[iChildBarcode].Cells[8].Value.ToString();  //Child Barcode6
-                                        break;
-                                    }
-                                }
-                            }
-                            for (int j = 0; j < aParamArr.Length; j++)
-                            {
-
-                                if (j == 0)
-                                {
-                                    if (char.IsNumber(aParamArr[j].ToString().Trim(), 0) && aParamArr[j].Trim() != "")
-                                    {
-                                        xlWorkSheet.Cells[iBarcode + 7, 64] = Convert.ToString((Convert.ToDecimal(aParamArr[j].Trim()) * 1) / 100);
-                                    }
-
-                                }
-                                if (j == 1)
-                                {
-                                    if (char.IsNumber(aParamArr[j].ToString().Trim(), 0) && aParamArr[j].Trim() != "")
-                                    {
-                                        xlWorkSheet.Cells[iBarcode + 7, 65] = Convert.ToString((Convert.ToDecimal(aParamArr[j].Trim()) * 1) / 100);
-                                    }
-                                }
-                                if (j == 2)
-                                {
-                                    if (char.IsNumber(aParamArr[j].ToString().Trim(), 0) && aParamArr[j].Trim() != "")
-                                    {
-                                        xlWorkSheet.Cells[iBarcode + 7, 66] = Convert.ToString((Convert.ToDecimal(aParamArr[j].Trim()) * 1) / 100);
-                                    }
-                                }
-                                if (j == 3)
-                                {
-                                    if (aParamArr[j].Trim() != "")
-                                    {
-                                        xlWorkSheet.Cells[iBarcode + 7, 67] = Convert.ToString(aParamArr[j].Trim());
-                                    }
-                                }
-
-
-                            }
-                            xlWorkSheet.Cells[iBarcode + 7, 68] = dgv.Rows[i].Cells[7].Value.ToString();  //Result
-                            #endregion
-                        }
-                        if (dgv.Rows[i].Cells[4].Value.ToString() == "07")
-                        {
-                            #region  Staion-07
-                            xlWorkSheet.Cells[iBarcode + 7, 69] = dgv.Rows[i].Cells[9].Value.ToString();  //Date Time
-
-                            for (int j = 0; j < aParamArr.Length; j++)
-                            {
-
-                                if (j == 0)
-                                {
-                                    if (char.IsNumber(aParamArr[j].ToString().Trim(), 0) && aParamArr[j].Trim() != "")
-                                    {
-                                        xlWorkSheet.Cells[iBarcode + 7, 70] = Convert.ToString((Convert.ToDecimal(aParamArr[j].Trim()) * 1) / 100);
-                                    }
-
-                                }
-                                if (j == 1)
-                                {
-                                    if (char.IsNumber(aParamArr[j].ToString().Trim(), 0) && aParamArr[j].Trim() != "")
-                                    {
-                                        xlWorkSheet.Cells[iBarcode + 7, 71] = Convert.ToString((Convert.ToDecimal(aParamArr[j].Trim()) * 1) / 100);
-                                    }
-                                }
-                                if (j == 2)
-                                {
-                                    if (char.IsNumber(aParamArr[j].ToString().Trim(), 0) && aParamArr[j].Trim() != "")
-                                    {
-                                        xlWorkSheet.Cells[iBarcode + 7, 72] = Convert.ToString((Convert.ToDecimal(aParamArr[j].Trim()) * 1) / 100);
-                                    }
-                                }
-                                if (j == 3)
-                                {
-                                    if (aParamArr[j].Trim() != "")
-                                    {
-                                        xlWorkSheet.Cells[iBarcode + 7, 73] = Convert.ToString(aParamArr[j].Trim());
-                                    }
-                                }
-
-
-                            }
-                            xlWorkSheet.Cells[iBarcode + 7, 74] = dgv.Rows[i].Cells[7].Value.ToString();  //Result
-                            #endregion
-                        }
-                        if (dgv.Rows[i].Cells[4].Value.ToString() == "08")
-                        {
-                            #region  Staion-08
-                            xlWorkSheet.Cells[iBarcode + 7, 75] = dgv.Rows[i].Cells[9].Value.ToString();  //Date Time
-
-                            for (int j = 0; j < aParamArr.Length; j++)
-                            {
-
-                                if (j == 0)
-                                {
-                                    if (char.IsNumber(aParamArr[j].ToString().Trim(), 0) && aParamArr[j].Trim() != "")
-                                    {
-                                        xlWorkSheet.Cells[iBarcode + 7, 76] = Convert.ToString((Convert.ToDecimal(aParamArr[j].Trim()) * 1) / 100);
-                                    }
-
-                                }
-                                if (j == 1)
-                                {
-                                    if (char.IsNumber(aParamArr[j].ToString().Trim(), 0) && aParamArr[j].Trim() != "")
-                                    {
-                                        xlWorkSheet.Cells[iBarcode + 7, 77] = Convert.ToString((Convert.ToDecimal(aParamArr[j].Trim()) * 1) / 100);
-                                    }
-                                }
-                                if (j == 2)
-                                {
-                                    if (char.IsNumber(aParamArr[j].ToString().Trim(), 0) && aParamArr[j].Trim() != "")
-                                    {
-                                        xlWorkSheet.Cells[iBarcode + 7, 78] = Convert.ToString((Convert.ToDecimal(aParamArr[j].Trim()) * 1) / 100);
-                                    }
-                                }
-                                if (j == 3)
-                                {
-                                    if (char.IsNumber(aParamArr[j].ToString().Trim(), 0) && aParamArr[j].Trim() != "")
-                                    {
-                                        xlWorkSheet.Cells[iBarcode + 7, 79] = Convert.ToString((Convert.ToDecimal(aParamArr[j].Trim()) * 1) / 10);
-                                    }
-
                                 }
                                 if (j == 4)
                                 {
                                     if (char.IsNumber(aParamArr[j].ToString().Trim(), 0) && aParamArr[j].Trim() != "")
                                     {
-                                        xlWorkSheet.Cells[iBarcode + 7, 80] = Convert.ToString((Convert.ToDecimal(aParamArr[j].Trim()) * 1) / 10);
+                                        xlWorkSheet.Cells[iBarcode + 7, 11] = Convert.ToString(aParamArr[j].Trim());
                                     }
                                 }
                                 if (j == 5)
                                 {
-                                    if (char.IsNumber(aParamArr[j].ToString().Trim(), 0) && aParamArr[j].Trim() != "")
+                                    if (char.IsLetter(aParamArr[j].ToString().Trim(), 0) && aParamArr[j].Trim() != "")
                                     {
-                                        xlWorkSheet.Cells[iBarcode + 7, 81] = Convert.ToString((Convert.ToDecimal(aParamArr[j].Trim()) * 1) / 10);
+                                        xlWorkSheet.Cells[iBarcode + 7, 12] = Convert.ToString(aParamArr[j].Trim());
                                     }
                                 }
                                 if (j == 6)
                                 {
                                     if (char.IsNumber(aParamArr[j].ToString().Trim(), 0) && aParamArr[j].Trim() != "")
                                     {
-                                        xlWorkSheet.Cells[iBarcode + 7, 82] = Convert.ToString((Convert.ToDecimal(aParamArr[j].Trim()) * 1) / 10);
+                                        xlWorkSheet.Cells[iBarcode + 7, 13] = Convert.ToString(aParamArr[j].Trim());
                                     }
-
                                 }
                                 if (j == 7)
                                 {
-                                    if (char.IsNumber(aParamArr[j].ToString().Trim(), 0) && aParamArr[j].Trim() != "")
+                                    if (char.IsLetter(aParamArr[j].ToString().Trim(), 0) && aParamArr[j].Trim() != "")
                                     {
-                                        xlWorkSheet.Cells[iBarcode + 7, 83] = Convert.ToString((Convert.ToDecimal(aParamArr[j].Trim()) * 1) / 10);
+                                        xlWorkSheet.Cells[iBarcode + 7, 14] = Convert.ToString(aParamArr[j].Trim());
                                     }
                                 }
                                 if (j == 8)
                                 {
                                     if (char.IsNumber(aParamArr[j].ToString().Trim(), 0) && aParamArr[j].Trim() != "")
                                     {
-                                        xlWorkSheet.Cells[iBarcode + 7, 84] = Convert.ToString((Convert.ToDecimal(aParamArr[j].Trim()) * 1) / 10);
+                                        xlWorkSheet.Cells[iBarcode + 7, 15] = Convert.ToString(aParamArr[j].Trim());
                                     }
                                 }
                                 if (j == 9)
                                 {
-                                    if (char.IsNumber(aParamArr[j].ToString().Trim(), 0) && aParamArr[j].Trim() != "")
+                                    if (char.IsLetter(aParamArr[j].ToString().Trim(), 0) && aParamArr[j].Trim() != "")
                                     {
-                                        xlWorkSheet.Cells[iBarcode + 7, 85] = Convert.ToString((Convert.ToDecimal(aParamArr[j].Trim()) * 1) / 10);
+                                        xlWorkSheet.Cells[iBarcode + 7, 16] = Convert.ToString(aParamArr[j].Trim());
                                     }
-
                                 }
                                 if (j == 10)
                                 {
                                     if (char.IsNumber(aParamArr[j].ToString().Trim(), 0) && aParamArr[j].Trim() != "")
                                     {
-                                        xlWorkSheet.Cells[iBarcode + 7, 86] = Convert.ToString((Convert.ToDecimal(aParamArr[j].Trim()) * 1) / 10);
+                                        xlWorkSheet.Cells[iBarcode + 7, 17] = Convert.ToString(aParamArr[j].Trim());
                                     }
                                 }
                                 if (j == 11)
                                 {
-                                    if (char.IsNumber(aParamArr[j].ToString().Trim(), 0) && aParamArr[j].Trim() != "")
+                                    if (char.IsLetter(aParamArr[j].ToString().Trim(), 0) && aParamArr[j].Trim() != "")
                                     {
-                                        xlWorkSheet.Cells[iBarcode + 7, 87] = Convert.ToString((Convert.ToDecimal(aParamArr[j].Trim()) * 1) / 10);
+                                        xlWorkSheet.Cells[iBarcode + 7, 18] = Convert.ToString(aParamArr[j].Trim());
                                     }
                                 }
                                 if (j == 12)
                                 {
                                     if (char.IsNumber(aParamArr[j].ToString().Trim(), 0) && aParamArr[j].Trim() != "")
                                     {
-                                        xlWorkSheet.Cells[iBarcode + 7, 88] = Convert.ToString((Convert.ToDecimal(aParamArr[j].Trim()) * 1) / 10);
+                                        xlWorkSheet.Cells[iBarcode + 7, 19] = Convert.ToString(aParamArr[j].Trim());
                                     }
-
                                 }
                                 if (j == 13)
                                 {
-                                    if (char.IsNumber(aParamArr[j].ToString().Trim(), 0) && aParamArr[j].Trim() != "")
+                                    if (char.IsLetter(aParamArr[j].ToString().Trim(), 0) && aParamArr[j].Trim() != "")
                                     {
-                                        xlWorkSheet.Cells[iBarcode + 7, 89] = Convert.ToString((Convert.ToDecimal(aParamArr[j].Trim()) * 1) / 10);
+                                        xlWorkSheet.Cells[iBarcode + 7, 20] = Convert.ToString(aParamArr[j].Trim());
                                     }
                                 }
                                 if (j == 14)
                                 {
                                     if (char.IsNumber(aParamArr[j].ToString().Trim(), 0) && aParamArr[j].Trim() != "")
                                     {
-                                        xlWorkSheet.Cells[iBarcode + 7, 90] = Convert.ToString((Convert.ToDecimal(aParamArr[j].Trim()) * 1) / 10);
+                                        xlWorkSheet.Cells[iBarcode + 7, 21] = Convert.ToString(aParamArr[j].Trim());
                                     }
                                 }
                                 if (j == 15)
                                 {
-                                    if (char.IsNumber(aParamArr[j].ToString().Trim(), 0) && aParamArr[j].Trim() != "")
+                                    if (char.IsLetter(aParamArr[j].ToString().Trim(), 0) && aParamArr[j].Trim() != "")
                                     {
-                                        xlWorkSheet.Cells[iBarcode + 7, 91] = Convert.ToString((Convert.ToDecimal(aParamArr[j].Trim()) * 1) / 10);
+                                        xlWorkSheet.Cells[iBarcode + 7, 22] = Convert.ToString(aParamArr[j].Trim());
                                     }
-
                                 }
                                 if (j == 16)
                                 {
                                     if (char.IsNumber(aParamArr[j].ToString().Trim(), 0) && aParamArr[j].Trim() != "")
                                     {
-                                        xlWorkSheet.Cells[iBarcode + 7, 92] = Convert.ToString((Convert.ToDecimal(aParamArr[j].Trim()) * 1) / 10);
+                                        xlWorkSheet.Cells[iBarcode + 7, 23] = Convert.ToString(aParamArr[j].Trim());
                                     }
                                 }
                                 if (j == 17)
                                 {
-                                    if (char.IsNumber(aParamArr[j].ToString().Trim(), 0) && aParamArr[j].Trim() != "")
+                                    if (char.IsLetter(aParamArr[j].ToString().Trim(), 0) && aParamArr[j].Trim() != "")
                                     {
-                                        xlWorkSheet.Cells[iBarcode + 7, 93] = Convert.ToString((Convert.ToDecimal(aParamArr[j].Trim()) * 1) / 10);
+                                        xlWorkSheet.Cells[iBarcode + 7, 24] = Convert.ToString(aParamArr[j].Trim());
                                     }
                                 }
                                 if (j == 18)
                                 {
                                     if (char.IsNumber(aParamArr[j].ToString().Trim(), 0) && aParamArr[j].Trim() != "")
                                     {
-                                        xlWorkSheet.Cells[iBarcode + 7, 94] = Convert.ToString((Convert.ToDecimal(aParamArr[j].Trim()) * 1) / 10);
+                                        xlWorkSheet.Cells[iBarcode + 7, 25] = Convert.ToString(aParamArr[j].Trim());
                                     }
                                 }
                                 if (j == 19)
                                 {
-                                    if (char.IsNumber(aParamArr[j].ToString().Trim(), 0) && aParamArr[j].Trim() != "")
+                                    if (char.IsLetter(aParamArr[j].ToString().Trim(), 0) && aParamArr[j].Trim() != "")
                                     {
-                                        xlWorkSheet.Cells[iBarcode + 7, 95] = Convert.ToString((Convert.ToDecimal(aParamArr[j].Trim()) * 1) / 10);
+                                        xlWorkSheet.Cells[iBarcode + 7, 26] = Convert.ToString(aParamArr[j].Trim());
                                     }
                                 }
-                                if (j == 20)
-                                {
-                                    if (char.IsNumber(aParamArr[j].ToString().Trim(), 0) && aParamArr[j].Trim() != "")
-                                    {
-                                        xlWorkSheet.Cells[iBarcode + 7, 96] = Convert.ToString((Convert.ToDecimal(aParamArr[j].Trim()) * 1) / 10);
-                                    }
-                                }
-
-
 
                             }
-                            xlWorkSheet.Cells[iBarcode + 7, 97] = dgv.Rows[i].Cells[7].Value.ToString();  //Result
                             #endregion
                         }
-                        if (dgv.Rows[i].Cells[4].Value.ToString() == "09")
+                        if (dgv.Rows[i].Cells[4].Value.ToString() == "01")
                         {
-                            #region  Staion-09
-                            xlWorkSheet.Cells[iBarcode + 7, 98] = dgv.Rows[i].Cells[9].Value.ToString();  //Date Time
-                            if (b9Child == false)
-                            {
-                                int i9ChildCounter = 0;
-                                for (int iChildBarcode = i; iChildBarcode < dg.Rows.Count; iChildBarcode++)
-                                {
-                                    b9Child = true;
-                                    i9ChildCounter = i9ChildCounter + 1;
-                                    if (i9ChildCounter == 1)
-                                    {
-                                        xlWorkSheet.Cells[iBarcode + 7, 99] = dgv.Rows[iChildBarcode].Cells[8].Value.ToString();  //Child Barcode1
-                                    }
-                                    if (i9ChildCounter == 2)
-                                    {
-                                        xlWorkSheet.Cells[iBarcode + 7, 100] = dgv.Rows[iChildBarcode].Cells[8].Value.ToString();  //Child Barcode2
-                                    }
-                                    if (i9ChildCounter == 3)
-                                    {
-                                        xlWorkSheet.Cells[iBarcode + 7, 101] = dgv.Rows[iChildBarcode].Cells[8].Value.ToString();  //Child Barcode3
-                                    }
-
-                                }
-                            }
-
+                            #region  Staion-02
+                            xlWorkSheet.Cells[iBarcode + 7, 27] = dgv.Rows[i].Cells[8].Value.ToString();  //Date Time
                             for (int j = 0; j < aParamArr.Length; j++)
                             {
 
@@ -1123,136 +478,54 @@ namespace SANDEN_PC_APP
                                 {
                                     if (char.IsNumber(aParamArr[j].ToString().Trim(), 0) && aParamArr[j].Trim() != "")
                                     {
-                                        xlWorkSheet.Cells[iBarcode + 7, 102] = Convert.ToString((Convert.ToDecimal(aParamArr[j].Trim()) * 1) / 100);
+                                        xlWorkSheet.Cells[iBarcode + 7, 28] = aParamArr[j].Trim();
                                     }
 
                                 }
                                 if (j == 1)
                                 {
-                                    if (char.IsNumber(aParamArr[j].ToString().Trim(), 0) && aParamArr[j].Trim() != "")
+                                    if (aParamArr[j].Trim() != "")
                                     {
-                                        xlWorkSheet.Cells[iBarcode + 7, 103] = Convert.ToString((Convert.ToDecimal(aParamArr[j].Trim()) * 1) / 100);
+                                        xlWorkSheet.Cells[iBarcode + 7, 29] = aParamArr[j].Trim();
                                     }
                                 }
-                                if (j == 2)
-                                {
-                                    if (char.IsNumber(aParamArr[j].ToString().Trim(), 0) && aParamArr[j].Trim() != "")
-                                    {
-                                        xlWorkSheet.Cells[iBarcode + 7, 104] = Convert.ToString((Convert.ToDecimal(aParamArr[j].Trim()) * 1) / 100);
-                                    }
-                                }
-                                if (j == 3)
-                                {
-                                    if (char.IsNumber(aParamArr[j].ToString().Trim(), 0) && aParamArr[j].Trim() != "")
-                                    {
-                                        xlWorkSheet.Cells[iBarcode + 7, 105] = Convert.ToString((Convert.ToDecimal(aParamArr[j].Trim()) * 1) / 100);
-                                    }
-                                }
-                                if (j == 4)
-                                {
-                                    if (char.IsNumber(aParamArr[j].ToString().Trim(), 0) && aParamArr[j].Trim() != "")
-                                    {
-                                        xlWorkSheet.Cells[iBarcode + 7, 106] = Convert.ToString((Convert.ToDecimal(aParamArr[j].Trim()) * 1) / 100);
-                                    }
-                                }
-                                if (j == 5)
-                                {
-                                    if (char.IsNumber(aParamArr[j].ToString().Trim(), 0) && aParamArr[j].Trim() != "")
-                                    {
-                                        xlWorkSheet.Cells[iBarcode + 7, 107] = Convert.ToString((Convert.ToDecimal(aParamArr[j].Trim()) * 1) / 100);
-                                    }
-                                }
-                                //if (j == 6)
-                                //{
-                                //    if (char.IsNumber(aParamArr[j].ToString().Trim(), 0) && aParamArr[j].Trim() != "")
-                                //    {
-                                //        xlWorkSheet.Cells[iBarcode + 7, 108] = Convert.ToString((Convert.ToDecimal(aParamArr[j].Trim()) * 1) / 100);
-                                //    }
-                                //}
-                                //if (j == 7)
-                                //{
-                                //    if (char.IsNumber(aParamArr[j].ToString().Trim(), 0) && aParamArr[j].Trim() != "")
-                                //    {
-                                //        xlWorkSheet.Cells[iBarcode + 7, 109] = Convert.ToString((Convert.ToDecimal(aParamArr[j].Trim()) * 1) / 100);
-                                //    }
-                                //}
-                                //if (j == 8)
-                                //{
-                                //    if (char.IsNumber(aParamArr[j].ToString().Trim(), 0) && aParamArr[j].Trim() != "")
-                                //    {
-                                //        xlWorkSheet.Cells[iBarcode + 7, 110] = Convert.ToString((Convert.ToDecimal(aParamArr[j].Trim()) * 1) / 100);
-                                //    }
-                                //}
+                                
 
                             }
-                            xlWorkSheet.Cells[iBarcode + 7, 108] = dgv.Rows[i].Cells[7].Value.ToString();  //Result
+                            //xlWorkSheet.Cells[iBarcode + 7, 15] = dgv.Rows[i].Cells[7].Value.ToString();  //Result
                             #endregion
                         }
-                        if (dgv.Rows[i].Cells[4].Value.ToString() == "10")
+                        if (dgv.Rows[i].Cells[4].Value.ToString() == "02")
                         {
-                            #region  Staion-10
-                            xlWorkSheet.Cells[iBarcode + 7, 109] = dgv.Rows[i].Cells[9].Value.ToString();  //Date Time
-
+                            #region  Staion-03
+                            xlWorkSheet.Cells[iBarcode + 7, 30] = dgv.Rows[i].Cells[8].Value.ToString();  //Date Time
                             for (int j = 0; j < aParamArr.Length; j++)
                             {
 
                                 if (j == 0)
                                 {
-                                    xlWorkSheet.Cells[iBarcode + 7, 110] = aParamArr[j].Trim();
+                                    if ( aParamArr[j].Trim() != "")
+                                    {
+                                        xlWorkSheet.Cells[iBarcode + 7, 31] = aParamArr[j].Trim() ;
+                                    }
 
                                 }
-                                if (j == 1)
-                                {
-                                    xlWorkSheet.Cells[iBarcode + 7, 111] = aParamArr[j].Trim();
-                                }
-                                if (j == 2)
-                                {
-                                    xlWorkSheet.Cells[iBarcode + 7, 112] = aParamArr[j].Trim();
-                                }
-                                if (j == 3)
-                                {
-                                    xlWorkSheet.Cells[iBarcode + 7, 113] = aParamArr[j].Trim();
-                                }
-                                if (j == 4)
-                                {
-                                    xlWorkSheet.Cells[iBarcode + 7, 114] = aParamArr[j].Trim();
-                                }
-                                if (j == 5)
-                                {
-                                    xlWorkSheet.Cells[iBarcode + 7, 115] = aParamArr[j].Trim();
-                                }
-                                if (j == 6)
-                                {
-                                    xlWorkSheet.Cells[iBarcode + 7, 116] = aParamArr[j].Trim();
-                                }
-                                if (j == 7)
-                                {
-                                    xlWorkSheet.Cells[iBarcode + 7, 117] = aParamArr[j].Trim();
-                                }
-                                if (j == 8)
-                                {
-                                    if (dgv.Rows[i].Cells[7].Value.ToString() == "PASS")
-                                    {
-                                        xlWorkSheet.Cells[iBarcode + 7, 118] = aParamArr[j].Trim();
-                                    }
-                                    else
-                                    {
-                                        xlWorkSheet.Cells[iBarcode + 7, 118] = "";
-                                    }
-                                }
+                                
+
 
                             }
-                            xlWorkSheet.Cells[iBarcode + 7, 119] = dgv.Rows[i].Cells[7].Value.ToString();  //Result
+                            //xlWorkSheet.Cells[iBarcode + 7, 20] = dgv.Rows[i].Cells[7].Value.ToString();  //Result
                             #endregion
                         }
-                        if (dgv.Rows[i].Cells[4].Value.ToString() == "11")
+
+                        if (dgv.Rows[i].Cells[4].Value.ToString() == "03")
                         {
-                            #region  Staion-11
-                            xlWorkSheet.Cells[iBarcode + 7, 120] = dgv.Rows[i].Cells[9].Value.ToString();  //Date Time
+                            #region  Staion-04
+                            xlWorkSheet.Cells[iBarcode + 7, 32] = dgv.Rows[i].Cells[8].Value.ToString();  //Date Time
 
-                            xlWorkSheet.Cells[iBarcode + 7, 121] = dgv.Rows[i].Cells[8].Value.ToString();  //FG Barcode
+                            xlWorkSheet.Cells[iBarcode + 7, 33] = dgv.Rows[i].Cells[5].Value.ToString();  //FG Barcode
 
-                            xlWorkSheet.Cells[iBarcode + 7, 122] = dgv.Rows[i].Cells[7].Value.ToString();  //Result
+                            xlWorkSheet.Cells[iBarcode + 7, 34] = dgv.Rows[i].Cells[6].Value.ToString();  //Result
                             #endregion
                         }
                         progressBar1.Value = i * progressBar1.Maximum / dtBarcode.Rows.Count;
@@ -1262,7 +535,7 @@ namespace SANDEN_PC_APP
                     Application.DoEvents();
                 OuterLoop:
                     continue;
-                   
+
                 }
                 progressBar1.Value = 100;
                 saveFileDialog1.Filter = "CSV Files|*.csv|Excel Files|*.xlsx|1997-2003 Excel Files|*.xls";

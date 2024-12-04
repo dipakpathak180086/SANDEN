@@ -259,7 +259,9 @@
     <Content Include="Resources\Region.png" />
     <Content Include="Resources\salesforce-logo-122x86.png" />
     <Content Include="Resources\SalesTarget.png" />
-    <Content Include="Resources\SANDEN_LOGO.jpeg" />
+    <Content Include="Resources\SANDEN_LOGO.jpeg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="Resources\Save24.jpg" />
     <Content Include="Resources\Search.jpg" />
     <Content Include="Resources\Searchb.bmp" />
