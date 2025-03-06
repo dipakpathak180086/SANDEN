@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Projects\\New Project\\SANDEN\\ClientCommunicationApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1E884035-8104-40DC-8A38-27D301CA15C0}|ClientCommunicationApp\\ClientCommunicationApp.csproj|d:\\projects\\new project\\sanden\\clientcommunicationapp\\clientcommunicationapp\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{1E884035-8104-40DC-8A38-27D301CA15C0}|ClientCommunicationApp\\ClientCommunicationApp.csproj|solutionrelative:clientcommunicationapp\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E884035-8104-40DC-8A38-27D301CA15C0}|ClientCommunicationApp\\ClientCommunicationApp.csproj|d:\\projects\\new project\\sanden\\clientcommunicationapp\\clientcommunicationapp\\model\\dl_plc_assey_transcation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E884035-8104-40DC-8A38-27D301CA15C0}|ClientCommunicationApp\\ClientCommunicationApp.csproj|solutionrelative:clientcommunicationapp\\model\\dl_plc_assey_transcation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "App.config",
+              "DocumentMoniker": "D:\\Projects\\New Project\\SANDEN\\ClientCommunicationApp\\ClientCommunicationApp\\App.config",
+              "RelativeDocumentMoniker": "ClientCommunicationApp\\App.config",
+              "ToolTip": "D:\\Projects\\New Project\\SANDEN\\ClientCommunicationApp\\ClientCommunicationApp\\App.config",
+              "RelativeToolTip": "ClientCommunicationApp\\App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-01-16T13:06:16.658Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DL_PLC_ASSEY_TRANSCATION.cs",
+              "DocumentMoniker": "D:\\Projects\\New Project\\SANDEN\\ClientCommunicationApp\\ClientCommunicationApp\\Model\\DL_PLC_ASSEY_TRANSCATION.cs",
+              "RelativeDocumentMoniker": "ClientCommunicationApp\\Model\\DL_PLC_ASSEY_TRANSCATION.cs",
+              "ToolTip": "D:\\Projects\\New Project\\SANDEN\\ClientCommunicationApp\\ClientCommunicationApp\\Model\\DL_PLC_ASSEY_TRANSCATION.cs",
+              "RelativeToolTip": "ClientCommunicationApp\\Model\\DL_PLC_ASSEY_TRANSCATION.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAABVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T13:06:06.273Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

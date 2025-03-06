@@ -138,8 +138,9 @@ namespace SANDEN_PC_APP
                 {
                     dtBarcode = dv.ToTable();
                 }
-                DataTable dtFinal = dtBarcode.AsDataView().ToTable(true, "Parent_Barcode");
+                //DataTable dtFinal = dtBarcode.AsDataView().ToTable(true, "Parent_Barcode","STATUS");
 
+                DataTable dtFinal = dtBarcode.AsDataView().ToTable(true, "Parent_Barcode");
                 Excel.Application xlApp;
                 Excel.Workbook xlWorkBook;
                 Excel.Worksheet xlWorkSheet;
@@ -249,6 +250,7 @@ namespace SANDEN_PC_APP
 
                 string[] aParamArr = null;
                 string sBarcode = "";
+                string sStation = "";
                 bool b6Child = false;
                 bool b9Child = false;
                 progressBar1.Visible = true;
@@ -263,8 +265,10 @@ namespace SANDEN_PC_APP
                     b6Child = false;
                     counter = counter + 1;
                     sBarcode = dtFinal.Rows[iBarcode][0].ToString();
+                    //sStation = dgv.Rows[i].Cells[5].Value.ToString();
                     for (int i = 0; i < dgv.Rows.Count; i++)
                     {
+                        sStation = dgv.Rows[i].Cells[4].Value.ToString();
                         //Model_No,       "0"
                         //FG_PART_NO,     "1"
                         //CUST_PART_NO,   "2"
@@ -323,144 +327,225 @@ namespace SANDEN_PC_APP
 
                                 if (j == 0)
                                 {
-                                    if (char.IsNumber(aParamArr[j].Trim().ToString(), 0) && aParamArr[j].Trim() != "")
+                                    if (aParamArr[j].Trim() != "")
                                     {
                                         xlWorkSheet.Cells[iBarcode + 7, 7] = Convert.ToString(aParamArr[j].Trim());
-                                        
+
+                                    }
+                                    else
+                                    {
+                                        xlWorkSheet.Cells[iBarcode + 7, 7] = "";
                                     }
 
                                 }
                                 if (j == 1)
                                 {
-                                    if (char.IsLetter(aParamArr[j].ToString().Trim(), 0) && aParamArr[j].Trim() != "")
+                                    if (aParamArr[j].Trim() != "")
                                     {
                                         xlWorkSheet.Cells[iBarcode + 7, 8] = Convert.ToString(aParamArr[j].Trim());
+                                    }
+                                    else
+                                    {
+                                        xlWorkSheet.Cells[iBarcode + 7, 8] = "";
                                     }
                                 }
                                 if (j == 2)
                                 {
-                                    if (char.IsNumber(aParamArr[j].ToString().Trim(), 0) && aParamArr[j].Trim() != "")
+                                    if (aParamArr[j].Trim() != "")
                                     {
                                         xlWorkSheet.Cells[iBarcode + 7, 9] = Convert.ToString(aParamArr[j].Trim());
                                     }
+                                    else
+                                    {
+                                        xlWorkSheet.Cells[iBarcode + 7, 9] = "";
+                                    }
+
                                 }
                                 if (j == 3)
                                 {
-                                    if (char.IsLetter(aParamArr[j].ToString().Trim(), 0) && aParamArr[j].Trim() != "")
+                                    if ( aParamArr[j].Trim() != "")
                                     {
                                         xlWorkSheet.Cells[iBarcode + 7, 10] = Convert.ToString(aParamArr[j].Trim());
+                                    }
+                                    else
+                                    {
+                                        xlWorkSheet.Cells[iBarcode + 7, 10] = "";
                                     }
                                 }
                                 if (j == 4)
                                 {
-                                    if (char.IsNumber(aParamArr[j].ToString().Trim(), 0) && aParamArr[j].Trim() != "")
+                                    if ( aParamArr[j].Trim() != "")
                                     {
                                         xlWorkSheet.Cells[iBarcode + 7, 11] = Convert.ToString(aParamArr[j].Trim());
+                                    }
+                                    else
+                                    {
+                                        xlWorkSheet.Cells[iBarcode + 7, 11] = "";
                                     }
                                 }
                                 if (j == 5)
                                 {
-                                    if (char.IsLetter(aParamArr[j].ToString().Trim(), 0) && aParamArr[j].Trim() != "")
+                                    if ( aParamArr[j].Trim() != "")
                                     {
                                         xlWorkSheet.Cells[iBarcode + 7, 12] = Convert.ToString(aParamArr[j].Trim());
+                                    }
+                                    else
+                                    {
+                                        xlWorkSheet.Cells[iBarcode + 7, 12] = "";
                                     }
                                 }
                                 if (j == 6)
                                 {
-                                    if (char.IsNumber(aParamArr[j].ToString().Trim(), 0) && aParamArr[j].Trim() != "")
+                                    if ( aParamArr[j].Trim() != "")
                                     {
                                         xlWorkSheet.Cells[iBarcode + 7, 13] = Convert.ToString(aParamArr[j].Trim());
+                                    }
+                                    else
+                                    {
+                                        xlWorkSheet.Cells[iBarcode + 7, 13] = "";
                                     }
                                 }
                                 if (j == 7)
                                 {
-                                    if (char.IsLetter(aParamArr[j].ToString().Trim(), 0) && aParamArr[j].Trim() != "")
+                                    if ( aParamArr[j].Trim() != "")
                                     {
                                         xlWorkSheet.Cells[iBarcode + 7, 14] = Convert.ToString(aParamArr[j].Trim());
+                                    }
+                                    else
+                                    {
+                                        xlWorkSheet.Cells[iBarcode + 7, 14] = "";
                                     }
                                 }
                                 if (j == 8)
                                 {
-                                    if (char.IsNumber(aParamArr[j].ToString().Trim(), 0) && aParamArr[j].Trim() != "")
+                                    if ( aParamArr[j].Trim() != "")
                                     {
                                         xlWorkSheet.Cells[iBarcode + 7, 15] = Convert.ToString(aParamArr[j].Trim());
+                                    }
+                                    else
+                                    {
+                                        xlWorkSheet.Cells[iBarcode + 7, 15] = "";
                                     }
                                 }
                                 if (j == 9)
                                 {
-                                    if (char.IsLetter(aParamArr[j].ToString().Trim(), 0) && aParamArr[j].Trim() != "")
+                                    if ( aParamArr[j].Trim() != "")
                                     {
                                         xlWorkSheet.Cells[iBarcode + 7, 16] = Convert.ToString(aParamArr[j].Trim());
+                                    }
+                                    else
+                                    {
+                                        xlWorkSheet.Cells[iBarcode + 7, 16] = "";
                                     }
                                 }
                                 if (j == 10)
                                 {
-                                    if (char.IsNumber(aParamArr[j].ToString().Trim(), 0) && aParamArr[j].Trim() != "")
+                                    if ( aParamArr[j].Trim() != "")
                                     {
                                         xlWorkSheet.Cells[iBarcode + 7, 17] = Convert.ToString(aParamArr[j].Trim());
+                                    }
+                                    else
+                                    {
+                                        xlWorkSheet.Cells[iBarcode + 7, 17] = "";
                                     }
                                 }
                                 if (j == 11)
                                 {
-                                    if (char.IsLetter(aParamArr[j].ToString().Trim(), 0) && aParamArr[j].Trim() != "")
+                                    if ( aParamArr[j].Trim() != "")
                                     {
                                         xlWorkSheet.Cells[iBarcode + 7, 18] = Convert.ToString(aParamArr[j].Trim());
+                                    }
+                                    else
+                                    {
+                                        xlWorkSheet.Cells[iBarcode + 7, 18] = "";
                                     }
                                 }
                                 if (j == 12)
                                 {
-                                    if (char.IsNumber(aParamArr[j].ToString().Trim(), 0) && aParamArr[j].Trim() != "")
+                                    if ( aParamArr[j].Trim() != "")
                                     {
                                         xlWorkSheet.Cells[iBarcode + 7, 19] = Convert.ToString(aParamArr[j].Trim());
+                                    }
+                                    else
+                                    {
+                                        xlWorkSheet.Cells[iBarcode + 7, 19] = "";
                                     }
                                 }
                                 if (j == 13)
                                 {
-                                    if (char.IsLetter(aParamArr[j].ToString().Trim(), 0) && aParamArr[j].Trim() != "")
+                                    if ( aParamArr[j].Trim() != "")
                                     {
                                         xlWorkSheet.Cells[iBarcode + 7, 20] = Convert.ToString(aParamArr[j].Trim());
+                                    }
+                                    else
+                                    {
+                                        xlWorkSheet.Cells[iBarcode + 7, 20] = "";
                                     }
                                 }
                                 if (j == 14)
                                 {
-                                    if (char.IsNumber(aParamArr[j].ToString().Trim(), 0) && aParamArr[j].Trim() != "")
+                                    if ( aParamArr[j].Trim() != "")
                                     {
                                         xlWorkSheet.Cells[iBarcode + 7, 21] = Convert.ToString(aParamArr[j].Trim());
+                                    }
+                                    else
+                                    {
+                                        xlWorkSheet.Cells[iBarcode + 7, 21] = "";
                                     }
                                 }
                                 if (j == 15)
                                 {
-                                    if (char.IsLetter(aParamArr[j].ToString().Trim(), 0) && aParamArr[j].Trim() != "")
+                                    if ( aParamArr[j].Trim() != "")
                                     {
                                         xlWorkSheet.Cells[iBarcode + 7, 22] = Convert.ToString(aParamArr[j].Trim());
+                                    }
+                                    else
+                                    {
+                                        xlWorkSheet.Cells[iBarcode + 7, 22] = "";
                                     }
                                 }
                                 if (j == 16)
                                 {
-                                    if (char.IsNumber(aParamArr[j].ToString().Trim(), 0) && aParamArr[j].Trim() != "")
+                                    if ( aParamArr[j].Trim() != "")
                                     {
                                         xlWorkSheet.Cells[iBarcode + 7, 23] = Convert.ToString(aParamArr[j].Trim());
+                                    }
+                                    else
+                                    {
+                                        xlWorkSheet.Cells[iBarcode + 7, 23] = "";
                                     }
                                 }
                                 if (j == 17)
                                 {
-                                    if (char.IsLetter(aParamArr[j].ToString().Trim(), 0) && aParamArr[j].Trim() != "")
+                                    if ( aParamArr[j].Trim() != "")
                                     {
                                         xlWorkSheet.Cells[iBarcode + 7, 24] = Convert.ToString(aParamArr[j].Trim());
+                                    }
+                                    else
+                                    {
+                                        xlWorkSheet.Cells[iBarcode + 7, 24] = "";
                                     }
                                 }
                                 if (j == 18)
                                 {
-                                    if (char.IsNumber(aParamArr[j].ToString().Trim(), 0) && aParamArr[j].Trim() != "")
+                                    if ( aParamArr[j].Trim() != "")
                                     {
                                         xlWorkSheet.Cells[iBarcode + 7, 25] = Convert.ToString(aParamArr[j].Trim());
+                                    }
+                                    else
+                                    {
+                                        xlWorkSheet.Cells[iBarcode + 7, 25] = "";
                                     }
                                 }
                                 if (j == 19)
                                 {
-                                    if (char.IsLetter(aParamArr[j].ToString().Trim(), 0) && aParamArr[j].Trim() != "")
+                                    if ( aParamArr[j].Trim() != "")
                                     {
                                         xlWorkSheet.Cells[iBarcode + 7, 26] = Convert.ToString(aParamArr[j].Trim());
+                                    }
+                                    else
+                                    {
+                                        xlWorkSheet.Cells[iBarcode + 7, 26] = "";
                                     }
                                 }
 
@@ -476,7 +561,7 @@ namespace SANDEN_PC_APP
 
                                 if (j == 0)
                                 {
-                                    if (char.IsNumber(aParamArr[j].ToString().Trim(), 0) && aParamArr[j].Trim() != "")
+                                    if ( aParamArr[j].Trim() != "")
                                     {
                                         xlWorkSheet.Cells[iBarcode + 7, 28] = aParamArr[j].Trim();
                                     }
@@ -700,14 +785,14 @@ namespace SANDEN_PC_APP
                             }
                             if (j == 1)
                             {
-                                if (char.IsNumber(aParamArr[j].ToString().Trim(), 0) && aParamArr[j].Trim() != "")
+                                if ( aParamArr[j].Trim() != "")
                                 {
                                     xlWorkSheet.Cells[i + 7, 9] = Convert.ToString((Convert.ToDecimal(aParamArr[j].Trim()) * 1) / 100);
                                 }
                             }
                             if (j == 2)
                             {
-                                if (char.IsNumber(aParamArr[j].ToString().Trim(), 0) && aParamArr[j].Trim() != "")
+                                if ( aParamArr[j].Trim() != "")
                                 {
                                     xlWorkSheet.Cells[i + 7, 10] = Convert.ToString((Convert.ToDecimal(aParamArr[j].Trim()) * 1) / 100);
                                 }
@@ -1163,14 +1248,14 @@ namespace SANDEN_PC_APP
                                 }
                                 if (j == 1)
                                 {
-                                    if (char.IsNumber(aParamArr[j].ToString().Trim(), 0) && aParamArr[j].Trim() != "")
+                                    if ( aParamArr[j].Trim() != "")
                                     {
                                         xlWorkSheet.Cells[iBarcode + 7, 9] = Convert.ToString((Convert.ToDecimal(aParamArr[j].Trim()) * 1) / 100);
                                     }
                                 }
                                 if (j == 2)
                                 {
-                                    if (char.IsNumber(aParamArr[j].ToString().Trim(), 0) && aParamArr[j].Trim() != "")
+                                    if ( aParamArr[j].Trim() != "")
                                     {
                                         xlWorkSheet.Cells[iBarcode + 7, 10] = Convert.ToString((Convert.ToDecimal(aParamArr[j].Trim()) * 1) / 100);
                                     }
@@ -1199,14 +1284,14 @@ namespace SANDEN_PC_APP
                                 }
                                 if (j == 1)
                                 {
-                                    if (char.IsNumber(aParamArr[j].ToString().Trim(), 0) && aParamArr[j].Trim() != "")
+                                    if ( aParamArr[j].Trim() != "")
                                     {
                                         xlWorkSheet.Cells[iBarcode + 7, 15] = Convert.ToString((Convert.ToDecimal(aParamArr[j].Trim()) * 1) / 100);
                                     }
                                 }
                                 if (j == 2)
                                 {
-                                    if (char.IsNumber(aParamArr[j].ToString().Trim(), 0) && aParamArr[j].Trim() != "")
+                                    if ( aParamArr[j].Trim() != "")
                                     {
                                         xlWorkSheet.Cells[iBarcode + 7, 16] = Convert.ToString((Convert.ToDecimal(aParamArr[j].Trim()) * 1) / 100);
                                     }
@@ -1241,7 +1326,7 @@ namespace SANDEN_PC_APP
 
                                 if (j == 0)
                                 {
-                                    if (char.IsNumber(aParamArr[j].ToString().Trim(), 0) && aParamArr[j].Trim() != "")
+                                    if ( aParamArr[j].Trim() != "")
                                     {
                                         xlWorkSheet.Cells[iBarcode + 7, 24] = Convert.ToString((Convert.ToDecimal(aParamArr[j].Trim()) * 1) / 100);
                                     }
@@ -1249,14 +1334,14 @@ namespace SANDEN_PC_APP
                                 }
                                 if (j == 1)
                                 {
-                                    if (char.IsNumber(aParamArr[j].ToString().Trim(), 0) && aParamArr[j].Trim() != "")
+                                    if ( aParamArr[j].Trim() != "")
                                     {
                                         xlWorkSheet.Cells[iBarcode + 7, 25] = Convert.ToString((Convert.ToDecimal(aParamArr[j].Trim()) * 1) / 100);
                                     }
                                 }
                                 if (j == 2)
                                 {
-                                    if (char.IsNumber(aParamArr[j].ToString().Trim(), 0) && aParamArr[j].Trim() != "")
+                                    if ( aParamArr[j].Trim() != "")
                                     {
                                         xlWorkSheet.Cells[iBarcode + 7, 26] = Convert.ToString((Convert.ToDecimal(aParamArr[j].Trim()) * 1) / 100);
                                     }
@@ -1291,7 +1376,7 @@ namespace SANDEN_PC_APP
 
                                 if (j == 0)
                                 {
-                                    if (char.IsNumber(aParamArr[j].ToString().Trim(), 0) && aParamArr[j].Trim() != "")
+                                    if ( aParamArr[j].Trim() != "")
                                     {
                                         xlWorkSheet.Cells[iBarcode + 7, 34] = Convert.ToString((Convert.ToDecimal(aParamArr[j].Trim()) * 1) / 100);
                                     }
@@ -1299,14 +1384,14 @@ namespace SANDEN_PC_APP
                                 }
                                 if (j == 1)
                                 {
-                                    if (char.IsNumber(aParamArr[j].ToString().Trim(), 0) && aParamArr[j].Trim() != "")
+                                    if ( aParamArr[j].Trim() != "")
                                     {
                                         xlWorkSheet.Cells[iBarcode + 7, 35] = Convert.ToString((Convert.ToDecimal(aParamArr[j].Trim()) * 1) / 100);
                                     }
                                 }
                                 if (j == 2)
                                 {
-                                    if (char.IsNumber(aParamArr[j].ToString().Trim(), 0) && aParamArr[j].Trim() != "")
+                                    if ( aParamArr[j].Trim() != "")
                                     {
                                         xlWorkSheet.Cells[iBarcode + 7, 36] = Convert.ToString((Convert.ToDecimal(aParamArr[j].Trim()) * 1) / 100);
                                     }
@@ -1337,7 +1422,7 @@ namespace SANDEN_PC_APP
 
                                 if (j == 0)
                                 {
-                                    if (char.IsNumber(aParamArr[j].ToString().Trim(), 0) && aParamArr[j].Trim() != "")
+                                    if ( aParamArr[j].Trim() != "")
                                     {
                                         xlWorkSheet.Cells[iBarcode + 7, 42] = Convert.ToString((Convert.ToDecimal(aParamArr[j].Trim()) * 1) / 100);
                                     }
@@ -1345,14 +1430,14 @@ namespace SANDEN_PC_APP
                                 }
                                 if (j == 1)
                                 {
-                                    if (char.IsNumber(aParamArr[j].ToString().Trim(), 0) && aParamArr[j].Trim() != "")
+                                    if ( aParamArr[j].Trim() != "")
                                     {
                                         xlWorkSheet.Cells[iBarcode + 7, 43] = Convert.ToString((Convert.ToDecimal(aParamArr[j].Trim()) * 1) / 100);
                                     }
                                 }
                                 if (j == 2)
                                 {
-                                    if (char.IsNumber(aParamArr[j].ToString().Trim(), 0) && aParamArr[j].Trim() != "")
+                                    if ( aParamArr[j].Trim() != "")
                                     {
                                         xlWorkSheet.Cells[iBarcode + 7, 44] = Convert.ToString((Convert.ToDecimal(aParamArr[j].Trim()) * 1) / 100);
                                     }
@@ -1384,7 +1469,7 @@ namespace SANDEN_PC_APP
 
                                 if (j == 0)
                                 {
-                                    if (char.IsNumber(aParamArr[j].ToString().Trim(), 0) && aParamArr[j].Trim() != "")
+                                    if ( aParamArr[j].Trim() != "")
                                     {
                                         xlWorkSheet.Cells[iBarcode + 7, 51] = Convert.ToString((Convert.ToDecimal(aParamArr[j].Trim()) * 1) / 100);
                                     }
@@ -1392,14 +1477,14 @@ namespace SANDEN_PC_APP
                                 }
                                 if (j == 1)
                                 {
-                                    if (char.IsNumber(aParamArr[j].ToString().Trim(), 0) && aParamArr[j].Trim() != "")
+                                    if ( aParamArr[j].Trim() != "")
                                     {
                                         xlWorkSheet.Cells[iBarcode + 7, 52] = Convert.ToString((Convert.ToDecimal(aParamArr[j].Trim()) * 1) / 100);
                                     }
                                 }
                                 if (j == 2)
                                 {
-                                    if (char.IsNumber(aParamArr[j].ToString().Trim(), 0) && aParamArr[j].Trim() != "")
+                                    if ( aParamArr[j].Trim() != "")
                                     {
                                         xlWorkSheet.Cells[iBarcode + 7, 53] = Convert.ToString((Convert.ToDecimal(aParamArr[j].Trim()) * 1) / 100);
                                     }
@@ -1428,21 +1513,21 @@ namespace SANDEN_PC_APP
                                 }
                                 if (j == 8)
                                 {
-                                    if (char.IsNumber(aParamArr[j].ToString().Trim(), 0) && aParamArr[j].Trim() != "")
+                                    if ( aParamArr[j].Trim() != "")
                                     {
                                         xlWorkSheet.Cells[iBarcode + 7, 59] = Convert.ToString((Convert.ToDecimal(aParamArr[j].Trim()) * 1) / 10);
                                     }
                                 }
                                 if (j == 9)
                                 {
-                                    if (char.IsNumber(aParamArr[j].ToString().Trim(), 0) && aParamArr[j].Trim() != "")
+                                    if ( aParamArr[j].Trim() != "")
                                     {
                                         xlWorkSheet.Cells[iBarcode + 7, 60] = Convert.ToString((Convert.ToDecimal(aParamArr[j].Trim()) * 1) / 10);
                                     }
                                 }
                                 if (j == 10)
                                 {
-                                    if (char.IsNumber(aParamArr[j].ToString().Trim(), 0) && aParamArr[j].Trim() != "")
+                                    if ( aParamArr[j].Trim() != "")
                                     {
                                         xlWorkSheet.Cells[iBarcode + 7, 61] = Convert.ToString((Convert.ToDecimal(aParamArr[j].Trim()) * 1) / 10);
                                     }
@@ -1496,7 +1581,7 @@ namespace SANDEN_PC_APP
 
                                 if (j == 0)
                                 {
-                                    if (char.IsNumber(aParamArr[j].ToString().Trim(), 0) && aParamArr[j].Trim() != "")
+                                    if ( aParamArr[j].Trim() != "")
                                     {
                                         xlWorkSheet.Cells[iBarcode + 7, 70] = Convert.ToString((Convert.ToDecimal(aParamArr[j].Trim()) * 1) / 100);
                                     }
@@ -1504,14 +1589,14 @@ namespace SANDEN_PC_APP
                                 }
                                 if (j == 1)
                                 {
-                                    if (char.IsNumber(aParamArr[j].ToString().Trim(), 0) && aParamArr[j].Trim() != "")
+                                    if ( aParamArr[j].Trim() != "")
                                     {
                                         xlWorkSheet.Cells[iBarcode + 7, 71] = Convert.ToString((Convert.ToDecimal(aParamArr[j].Trim()) * 1) / 100);
                                     }
                                 }
                                 if (j == 2)
                                 {
-                                    if (char.IsNumber(aParamArr[j].ToString().Trim(), 0) && aParamArr[j].Trim() != "")
+                                    if ( aParamArr[j].Trim() != "")
                                     {
                                         xlWorkSheet.Cells[iBarcode + 7, 72] = Convert.ToString((Convert.ToDecimal(aParamArr[j].Trim()) * 1) / 100);
                                     }
@@ -1539,7 +1624,7 @@ namespace SANDEN_PC_APP
 
                                 if (j == 0)
                                 {
-                                    if (char.IsNumber(aParamArr[j].ToString().Trim(), 0) && aParamArr[j].Trim() != "")
+                                    if ( aParamArr[j].Trim() != "")
                                     {
                                         xlWorkSheet.Cells[iBarcode + 7, 76] = Convert.ToString((Convert.ToDecimal(aParamArr[j].Trim()) * 1) / 100);
                                     }
@@ -1547,14 +1632,14 @@ namespace SANDEN_PC_APP
                                 }
                                 if (j == 1)
                                 {
-                                    if (char.IsNumber(aParamArr[j].ToString().Trim(), 0) && aParamArr[j].Trim() != "")
+                                    if ( aParamArr[j].Trim() != "")
                                     {
                                         xlWorkSheet.Cells[iBarcode + 7, 77] = Convert.ToString((Convert.ToDecimal(aParamArr[j].Trim()) * 1) / 100);
                                     }
                                 }
                                 if (j == 2)
                                 {
-                                    if (char.IsNumber(aParamArr[j].ToString().Trim(), 0) && aParamArr[j].Trim() != "")
+                                    if ( aParamArr[j].Trim() != "")
                                     {
                                         xlWorkSheet.Cells[iBarcode + 7, 78] = Convert.ToString((Convert.ToDecimal(aParamArr[j].Trim()) * 1) / 100);
                                     }
@@ -1582,7 +1667,7 @@ namespace SANDEN_PC_APP
 
                                 if (j == 0)
                                 {
-                                    if (char.IsNumber(aParamArr[j].ToString().Trim(), 0) && aParamArr[j].Trim() != "")
+                                    if ( aParamArr[j].Trim() != "")
                                     {
                                         xlWorkSheet.Cells[iBarcode + 7, 82] = Convert.ToString((Convert.ToDecimal(aParamArr[j].Trim()) * 1) / 100);
                                     }
@@ -1590,21 +1675,21 @@ namespace SANDEN_PC_APP
                                 }
                                 if (j == 1)
                                 {
-                                    if (char.IsNumber(aParamArr[j].ToString().Trim(), 0) && aParamArr[j].Trim() != "")
+                                    if ( aParamArr[j].Trim() != "")
                                     {
                                         xlWorkSheet.Cells[iBarcode + 7, 83] = Convert.ToString((Convert.ToDecimal(aParamArr[j].Trim()) * 1) / 100);
                                     }
                                 }
                                 if (j == 2)
                                 {
-                                    if (char.IsNumber(aParamArr[j].ToString().Trim(), 0) && aParamArr[j].Trim() != "")
+                                    if ( aParamArr[j].Trim() != "")
                                     {
                                         xlWorkSheet.Cells[iBarcode + 7, 84] = Convert.ToString((Convert.ToDecimal(aParamArr[j].Trim()) * 1) / 100);
                                     }
                                 }
                                 if (j == 3)
                                 {
-                                    if (char.IsNumber(aParamArr[j].ToString().Trim(), 0) && aParamArr[j].Trim() != "")
+                                    if ( aParamArr[j].Trim() != "")
                                     {
                                         xlWorkSheet.Cells[iBarcode + 7, 85] = Convert.ToString((Convert.ToDecimal(aParamArr[j].Trim()) * 1) / 10);
                                     }
@@ -1612,21 +1697,21 @@ namespace SANDEN_PC_APP
                                 }
                                 if (j == 4)
                                 {
-                                    if (char.IsNumber(aParamArr[j].ToString().Trim(), 0) && aParamArr[j].Trim() != "")
+                                    if ( aParamArr[j].Trim() != "")
                                     {
                                         xlWorkSheet.Cells[iBarcode + 7, 86] = Convert.ToString((Convert.ToDecimal(aParamArr[j].Trim()) * 1) / 10);
                                     }
                                 }
                                 if (j == 5)
                                 {
-                                    if (char.IsNumber(aParamArr[j].ToString().Trim(), 0) && aParamArr[j].Trim() != "")
+                                    if ( aParamArr[j].Trim() != "")
                                     {
                                         xlWorkSheet.Cells[iBarcode + 7, 87] = Convert.ToString((Convert.ToDecimal(aParamArr[j].Trim()) * 1) / 10);
                                     }
                                 }
                                 if (j == 6)
                                 {
-                                    if (char.IsNumber(aParamArr[j].ToString().Trim(), 0) && aParamArr[j].Trim() != "")
+                                    if ( aParamArr[j].Trim() != "")
                                     {
                                         xlWorkSheet.Cells[iBarcode + 7, 88] = Convert.ToString((Convert.ToDecimal(aParamArr[j].Trim()) * 1) / 10);
                                     }
@@ -1634,21 +1719,21 @@ namespace SANDEN_PC_APP
                                 }
                                 if (j == 7)
                                 {
-                                    if (char.IsNumber(aParamArr[j].ToString().Trim(), 0) && aParamArr[j].Trim() != "")
+                                    if ( aParamArr[j].Trim() != "")
                                     {
                                         xlWorkSheet.Cells[iBarcode + 7, 89] = Convert.ToString((Convert.ToDecimal(aParamArr[j].Trim()) * 1) / 10);
                                     }
                                 }
                                 if (j == 8)
                                 {
-                                    if (char.IsNumber(aParamArr[j].ToString().Trim(), 0) && aParamArr[j].Trim() != "")
+                                    if ( aParamArr[j].Trim() != "")
                                     {
                                         xlWorkSheet.Cells[iBarcode + 7, 90] = Convert.ToString((Convert.ToDecimal(aParamArr[j].Trim()) * 1) / 10);
                                     }
                                 }
                                 if (j == 9)
                                 {
-                                    if (char.IsNumber(aParamArr[j].ToString().Trim(), 0) && aParamArr[j].Trim() != "")
+                                    if ( aParamArr[j].Trim() != "")
                                     {
                                         xlWorkSheet.Cells[iBarcode + 7, 91] = Convert.ToString((Convert.ToDecimal(aParamArr[j].Trim()) * 1) / 10);
                                     }
@@ -1656,21 +1741,21 @@ namespace SANDEN_PC_APP
                                 }
                                 if (j == 10)
                                 {
-                                    if (char.IsNumber(aParamArr[j].ToString().Trim(), 0) && aParamArr[j].Trim() != "")
+                                    if ( aParamArr[j].Trim() != "")
                                     {
                                         xlWorkSheet.Cells[iBarcode + 7, 92] = Convert.ToString((Convert.ToDecimal(aParamArr[j].Trim()) * 1) / 10);
                                     }
                                 }
                                 if (j == 11)
                                 {
-                                    if (char.IsNumber(aParamArr[j].ToString().Trim(), 0) && aParamArr[j].Trim() != "")
+                                    if ( aParamArr[j].Trim() != "")
                                     {
                                         xlWorkSheet.Cells[iBarcode + 7, 93] = Convert.ToString((Convert.ToDecimal(aParamArr[j].Trim()) * 1) / 10);
                                     }
                                 }
                                 if (j == 12)
                                 {
-                                    if (char.IsNumber(aParamArr[j].ToString().Trim(), 0) && aParamArr[j].Trim() != "")
+                                    if ( aParamArr[j].Trim() != "")
                                     {
                                         xlWorkSheet.Cells[iBarcode + 7, 94] = Convert.ToString((Convert.ToDecimal(aParamArr[j].Trim()) * 1) / 10);
                                     }
@@ -1678,21 +1763,21 @@ namespace SANDEN_PC_APP
                                 }
                                 if (j == 13)
                                 {
-                                    if (char.IsNumber(aParamArr[j].ToString().Trim(), 0) && aParamArr[j].Trim() != "")
+                                    if ( aParamArr[j].Trim() != "")
                                     {
                                         xlWorkSheet.Cells[iBarcode + 7, 95] = Convert.ToString((Convert.ToDecimal(aParamArr[j].Trim()) * 1) / 10);
                                     }
                                 }
                                 if (j == 14)
                                 {
-                                    if (char.IsNumber(aParamArr[j].ToString().Trim(), 0) && aParamArr[j].Trim() != "")
+                                    if ( aParamArr[j].Trim() != "")
                                     {
                                         xlWorkSheet.Cells[iBarcode + 7, 96] = Convert.ToString((Convert.ToDecimal(aParamArr[j].Trim()) * 1) / 10);
                                     }
                                 }
                                 if (j == 15)
                                 {
-                                    if (char.IsNumber(aParamArr[j].ToString().Trim(), 0) && aParamArr[j].Trim() != "")
+                                    if ( aParamArr[j].Trim() != "")
                                     {
                                         xlWorkSheet.Cells[iBarcode + 7, 97] = Convert.ToString((Convert.ToDecimal(aParamArr[j].Trim()) * 1) / 10);
                                     }
@@ -1700,35 +1785,35 @@ namespace SANDEN_PC_APP
                                 }
                                 if (j == 16)
                                 {
-                                    if (char.IsNumber(aParamArr[j].ToString().Trim(), 0) && aParamArr[j].Trim() != "")
+                                    if ( aParamArr[j].Trim() != "")
                                     {
                                         xlWorkSheet.Cells[iBarcode + 7, 98] = Convert.ToString((Convert.ToDecimal(aParamArr[j].Trim()) * 1) / 10);
                                     }
                                 }
                                 if (j == 17)
                                 {
-                                    if (char.IsNumber(aParamArr[j].ToString().Trim(), 0) && aParamArr[j].Trim() != "")
+                                    if ( aParamArr[j].Trim() != "")
                                     {
                                         xlWorkSheet.Cells[iBarcode + 7, 99] = Convert.ToString((Convert.ToDecimal(aParamArr[j].Trim()) * 1) / 10);
                                     }
                                 }
                                 if (j == 18)
                                 {
-                                    if (char.IsNumber(aParamArr[j].ToString().Trim(), 0) && aParamArr[j].Trim() != "")
+                                    if ( aParamArr[j].Trim() != "")
                                     {
                                         xlWorkSheet.Cells[iBarcode + 7, 100] = Convert.ToString((Convert.ToDecimal(aParamArr[j].Trim()) * 1) / 10);
                                     }
                                 }
                                 if (j == 19)
                                 {
-                                    if (char.IsNumber(aParamArr[j].ToString().Trim(), 0) && aParamArr[j].Trim() != "")
+                                    if ( aParamArr[j].Trim() != "")
                                     {
                                         xlWorkSheet.Cells[iBarcode + 7, 101] = Convert.ToString((Convert.ToDecimal(aParamArr[j].Trim()) * 1) / 10);
                                     }
                                 }
                                 if (j == 20)
                                 {
-                                    if (char.IsNumber(aParamArr[j].ToString().Trim(), 0) && aParamArr[j].Trim() != "")
+                                    if ( aParamArr[j].Trim() != "")
                                     {
                                         xlWorkSheet.Cells[iBarcode + 7, 102] = Convert.ToString((Convert.ToDecimal(aParamArr[j].Trim()) * 1) / 10);
                                     }
@@ -1750,7 +1835,7 @@ namespace SANDEN_PC_APP
 
                                 if (j == 0)
                                 {
-                                    if (char.IsNumber(aParamArr[j].ToString().Trim(), 0) && aParamArr[j].Trim() != "")
+                                    if ( aParamArr[j].Trim() != "")
                                     {
                                         xlWorkSheet.Cells[iBarcode + 7, 105] = Convert.ToString((Convert.ToDecimal(aParamArr[j].Trim()) * 1) / 100);
                                     }
@@ -1758,56 +1843,56 @@ namespace SANDEN_PC_APP
                                 }
                                 if (j == 1)
                                 {
-                                    if (char.IsNumber(aParamArr[j].ToString().Trim(), 0) && aParamArr[j].Trim() != "")
+                                    if ( aParamArr[j].Trim() != "")
                                     {
                                         xlWorkSheet.Cells[iBarcode + 7, 106] = Convert.ToString((Convert.ToDecimal(aParamArr[j].Trim()) * 1) / 100);
                                     }
                                 }
                                 if (j == 2)
                                 {
-                                    if (char.IsNumber(aParamArr[j].ToString().Trim(), 0) && aParamArr[j].Trim() != "")
+                                    if ( aParamArr[j].Trim() != "")
                                     {
                                         xlWorkSheet.Cells[iBarcode + 7, 107] = Convert.ToString((Convert.ToDecimal(aParamArr[j].Trim()) * 1) / 100);
                                     }
                                 }
                                 if (j == 3)
                                 {
-                                    if (char.IsNumber(aParamArr[j].ToString().Trim(), 0) && aParamArr[j].Trim() != "")
+                                    if ( aParamArr[j].Trim() != "")
                                     {
                                         xlWorkSheet.Cells[iBarcode + 7, 108] = Convert.ToString((Convert.ToDecimal(aParamArr[j].Trim()) * 1) / 100);
                                     }
                                 }
                                 if (j == 4)
                                 {
-                                    if (char.IsNumber(aParamArr[j].ToString().Trim(), 0) && aParamArr[j].Trim() != "")
+                                    if ( aParamArr[j].Trim() != "")
                                     {
                                         xlWorkSheet.Cells[iBarcode + 7, 109] = Convert.ToString((Convert.ToDecimal(aParamArr[j].Trim()) * 1) / 100);
                                     }
                                 }
                                 if (j == 5)
                                 {
-                                    if (char.IsNumber(aParamArr[j].ToString().Trim(), 0) && aParamArr[j].Trim() != "")
+                                    if ( aParamArr[j].Trim() != "")
                                     {
                                         xlWorkSheet.Cells[iBarcode + 7, 110] = Convert.ToString((Convert.ToDecimal(aParamArr[j].Trim()) * 1) / 100);
                                     }
                                 }
                                 //if (j == 6)
                                 //{
-                                //    if (char.IsNumber(aParamArr[j].ToString().Trim(), 0) && aParamArr[j].Trim() != "")
+                                //    if ( aParamArr[j].Trim() != "")
                                 //    {
                                 //        xlWorkSheet.Cells[iBarcode + 7, 111] = Convert.ToString((Convert.ToDecimal(aParamArr[j].Trim()) * 1) / 100);
                                 //    }
                                 //}
                                 //if (j == 7)
                                 //{
-                                //    if (char.IsNumber(aParamArr[j].ToString().Trim(), 0) && aParamArr[j].Trim() != "")
+                                //    if ( aParamArr[j].Trim() != "")
                                 //    {
                                 //        xlWorkSheet.Cells[iBarcode + 7, 112] = Convert.ToString((Convert.ToDecimal(aParamArr[j].Trim()) * 1) / 100);
                                 //    }
                                 //}
                                 //if (j == 8)
                                 //{
-                                //    if (char.IsNumber(aParamArr[j].ToString().Trim(), 0) && aParamArr[j].Trim() != "")
+                                //    if ( aParamArr[j].Trim() != "")
                                 //    {
                                 //        xlWorkSheet.Cells[iBarcode + 7, 113] = Convert.ToString((Convert.ToDecimal(aParamArr[j].Trim()) * 1) / 100);
                                 //    }

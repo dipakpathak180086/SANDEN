@@ -81,3 +81,24 @@ D:\Projects\Live Project\New Project\SANDEN\ClientCommunicationApp\ClientCommuni
 D:\Projects\Live Project\New Project\SANDEN\ClientCommunicationApp\ClientCommunicationApp\obj\Debug\ClientCommunicationApp.csproj.CopyComplete
 D:\Projects\Live Project\New Project\SANDEN\ClientCommunicationApp\ClientCommunicationApp\obj\Debug\CNGClientCommunicationApp.exe
 D:\Projects\Live Project\New Project\SANDEN\ClientCommunicationApp\ClientCommunicationApp\obj\Debug\CNGClientCommunicationApp.pdb
+D:\Projects\New Project\SANDEN\ClientCommunicationApp\ClientCommunicationApp\bin\Debug\CNGClientCommunicationApp.exe.config
+D:\Projects\New Project\SANDEN\ClientCommunicationApp\ClientCommunicationApp\bin\Debug\CNGClientCommunicationApp.exe
+D:\Projects\New Project\SANDEN\ClientCommunicationApp\ClientCommunicationApp\bin\Debug\CNGClientCommunicationApp.pdb
+D:\Projects\New Project\SANDEN\ClientCommunicationApp\ClientCommunicationApp\obj\Debug\ClientCommunicationApp.csproj.AssemblyReference.cache
+D:\Projects\New Project\SANDEN\ClientCommunicationApp\ClientCommunicationApp\obj\Debug\Themes\btnPlain.baml
+D:\Projects\New Project\SANDEN\ClientCommunicationApp\ClientCommunicationApp\obj\Debug\Themes\DataGridDark.baml
+D:\Projects\New Project\SANDEN\ClientCommunicationApp\ClientCommunicationApp\obj\Debug\Themes\DataGridDark_brushes.baml
+D:\Projects\New Project\SANDEN\ClientCommunicationApp\ClientCommunicationApp\obj\Debug\Themes\MyResources.baml
+D:\Projects\New Project\SANDEN\ClientCommunicationApp\ClientCommunicationApp\obj\Debug\winClient.g.cs
+D:\Projects\New Project\SANDEN\ClientCommunicationApp\ClientCommunicationApp\obj\Debug\App.g.cs
+D:\Projects\New Project\SANDEN\ClientCommunicationApp\ClientCommunicationApp\obj\Debug\CNGClientCommunicationApp_MarkupCompile.cache
+D:\Projects\New Project\SANDEN\ClientCommunicationApp\ClientCommunicationApp\obj\Debug\CNGClientCommunicationApp_MarkupCompile.lref
+D:\Projects\New Project\SANDEN\ClientCommunicationApp\ClientCommunicationApp\obj\Debug\App.baml
+D:\Projects\New Project\SANDEN\ClientCommunicationApp\ClientCommunicationApp\obj\Debug\winClient.baml
+D:\Projects\New Project\SANDEN\ClientCommunicationApp\ClientCommunicationApp\obj\Debug\CNGClientCommunicationApp.g.resources
+D:\Projects\New Project\SANDEN\ClientCommunicationApp\ClientCommunicationApp\obj\Debug\ClientCommunicationApp.Properties.Resources.resources
+D:\Projects\New Project\SANDEN\ClientCommunicationApp\ClientCommunicationApp\obj\Debug\ClientCommunicationApp.csproj.GenerateResource.cache
+D:\Projects\New Project\SANDEN\ClientCommunicationApp\ClientCommunicationApp\obj\Debug\ClientCommunicationApp.csproj.CoreCompileInputs.cache
+D:\Projects\New Project\SANDEN\ClientCommunicationApp\ClientCommunicationApp\obj\Debug\ClientCo.745C67D4.Up2Date
+D:\Projects\New Project\SANDEN\ClientCommunicationApp\ClientCommunicationApp\obj\Debug\CNGClientCommunicationApp.exe
+D:\Projects\New Project\SANDEN\ClientCommunicationApp\ClientCommunicationApp\obj\Debug\CNGClientCommunicationApp.pdb
